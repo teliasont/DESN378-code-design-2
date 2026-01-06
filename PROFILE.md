@@ -21,16 +21,16 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | https://github.com/teliasont | ⏳ |
-| **Figma** | @teliasont | ⏳ |
-| **CodePen** | https://codepen.io/teliasont | ⏳ |
+| **GitHub** | https://github.com/teliasont | ✔ |
+| **Figma** | @teliasont | ✔ |
+| **CodePen** | https://codepen.io/teliasont | ✔ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
 
 ## Profile Photo
 
-- [ ] Same photo uploaded to GitHub, Figma, and CodePen
+- [x] Same photo uploaded to GitHub, Figma, and CodePen
 - [ ] Professional or at least *intentional*
 - [ ] Face visible (helps me learn names!)
 
@@ -52,9 +52,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
+| Education Plan Active | ✔ |
 | Joined Course Team | ⏳ |
-| Expires | <!-- Date --> |
+| Expires | September 2026 |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
