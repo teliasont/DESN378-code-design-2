@@ -9,10 +9,9 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | Tayla Eliason |
+| **Preferred Name** | Tayla |
+| **EWU Email** | teliason@ewu.edu |
 
 ---
 
@@ -22,9 +21,9 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | https://github.com/teliasont | ⏳ |
+| **Figma** | @teliasont | ⏳ |
+| **CodePen** | https://codepen.io/teliasont | ⏳ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
