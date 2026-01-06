@@ -1,0 +1,52 @@
+/* =============================================
+   DESN 378: Code + Design 2
+   Your portfolio styles go here.
+
+   Replace this with your CSS from DESN 368
+   or start fresh with your own design.
+   ============================================= */
+
+/* Basic reset and defaults */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+main {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+code {
+  background: #e5e5e5;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-family: 'SF Mono', Consolas, monospace;
+}
