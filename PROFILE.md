@@ -68,6 +68,7 @@ Update it once, keep it consistent everywhere.
 Example: "I'm drawn to motion design and systems thinking. 
 Currently exploring how interaction design can feel more human."
 -->
+I enjoy web design and futzing around in Illustrator. Recently, I have been trying more physical mediums, like sewing and painting on fabric, because I want to make a bunch of my own stuff! And you didn't ask, but I have a cat ₍^. .^₎⟆
 
 ---
 
