@@ -74,15 +74,15 @@ At the top of your new README, add the link to your live portfolio:
 
 Before class Wednesday Jan 7th, confirm everything is set up:
 
-- [ ] Repository created from template (not forked)
-- [ ] Repository is public
-- [ ] `PROFILE.md` filled out
-- [ ] All profiles match (GitHub, Figma, CodePen)
-- [ ] GitHub Pages enabled and working
-- [ ] Portfolio link at top of README
-- [ ] GitHub Student Pack active (for Copilot)
-- [ ] Figma Education active
-- [ ] VS Code extensions installed (Copilot, Live Server, Prettier)
+- [x] Repository created from template (not forked)
+- [x] Repository is public
+- [x] `PROFILE.md` filled out
+- [x] All profiles match (GitHub, Figma, CodePen)
+- [x] GitHub Pages enabled and working
+- [x] Portfolio link at top of README
+- [x] GitHub Student Pack active (for Copilot)
+- [x] Figma Education active
+- [x] VS Code extensions installed (Copilot, Live Server, Prettier)
 
 ---
 
