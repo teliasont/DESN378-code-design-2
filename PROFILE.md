@@ -41,8 +41,9 @@ Update it once, keep it consistent everywhere.
 | Item | Status |
 |------|--------|
 | Applied/Renewed | ✔ |
-| Copilot Access | ✔ |
+| Copilot Access | ⏳ |
 | Expires | Jan. 06, 2028 |
+--> Currently waiting on education benefits to activate after renewing my student status.
 
 👉 [Check status or renew](https://education.github.com/pack)
 
