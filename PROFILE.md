@@ -31,7 +31,7 @@ Update it once, keep it consistent everywhere.
 ## Profile Photo
 
 - [x] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
+- [x] Professional or at least *intentional*
 - [ ] Face visible (helps me learn names!)
 
 ---
@@ -40,9 +40,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✔ |
+| Copilot Access | ✔ |
+| Expires | Jan. 06, 2028 |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,7 +53,7 @@ Update it once, keep it consistent everywhere.
 | Item | Status |
 |------|--------|
 | Education Plan Active | ✔ |
-| Joined Course Team | ⏳ |
+| Joined Course Team | ✔ |
 | Expires | September 2026 |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
@@ -68,7 +68,7 @@ Update it once, keep it consistent everywhere.
 Example: "I'm drawn to motion design and systems thinking. 
 Currently exploring how interaction design can feel more human."
 -->
-I enjoy web design and futzing around in Illustrator. Recently, I have been trying more physical mediums, like sewing and painting on fabric, because I want to make a bunch of my own stuff! And you didn't ask, but I have a cat ₍^. .^₎⟆
+I enjoy web design and futzing around in Illustrator. Recently, I have been trying more physical mediums as well, like sewing and painting on fabric, because I want to make a bunch of my own stuff! And you didn't ask, but I have a cat ₍^. .^₎⟆
 
 ---
 
