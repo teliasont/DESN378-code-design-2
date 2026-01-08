@@ -1,6 +1,6 @@
 # DESN 378: Code + Design 2
 
-🔗 **[Learning Log](https://github.com/teliasont/DESN378-code-design-2)**
+🔗 **[Learning Log](https://teliasont.github.io/DESN378-code-design-2/)**
 🔗 **[DESN368 Portfolio](https://teliasont.github.io)**
 
 ---
