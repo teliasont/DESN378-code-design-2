@@ -7,7 +7,7 @@ const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/space_beam.jpg") {
-    myImage.setAttribute("src", "images/bangers.jpg");
+    myImage.setAttribute("src", "images/space_falling.jpg");
   } else {
     myImage.setAttribute("src", "images/space_beam.jpg");
   }
@@ -19,14 +19,14 @@ let myHeading = document.querySelector("h1");
 function setUserName() {
   const myName = prompt("Please enter your name.");
   localStorage.setItem("name", myName);
-  myHeading.textContent = `Mozilla is cool, ${myName}`;
+  myHeading.textContent = `Welcome to the Universe, ${myName}!`;
 }
 
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Mozilla is cool, ${storedName}`;
+  myHeading.textContent = `Welcome to the Universe, ${storedName}!`;
 }
 
 myButton.addEventListener("click", () => {
@@ -40,7 +40,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Mozilla is cool, ${myName}`;
+    myHeading.textContent = `Welcome to the Universe, ${myName}!`;
   }
 }
 
