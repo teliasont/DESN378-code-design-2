@@ -20,15 +20,42 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 ---
 
-## Learning Log
-
-Update this section each week with observations, breakthroughs, and questions.
-
-### Week 1: Systems That Respond
-*Coming soon...*
-
-### Week 2: Remembering Choices
-*Coming soon...*
+# Learning Log​
+## Week 1​
+### What I Learned
+<!-- What concepts clicked for you? What was new? -->
+I learned about how you can select specific items through the console/.js files. Alongside that, I discovered how to use JavaScript to make visual and text-based changes. We also covered eventListeners and how those will watch for a specfic action to be taken before running whatever function/code is contained inside them.
+​
+​
+### What Was Hard
+<!-- What frustrated you? What didn't make sense? -->
+GitHub is the biggest learning curve so far. I'm having issues with file management and linking things correctly. The most annoying part so far has been that everything displays correctly in the codespace, but not on my live Pages site. I'm sure there's an easy fix, I'm just not aware of it yet. Specifically, I have working js and css files in my codespace, but when I sync changes and open the Behavioral Tutorial from my Learning Log page, none of that fun stuff is there :(​
+​
+### How I Used AI
+<!-- Did you use Copilot, ChatGPT, etc.? How did it help or not help? -->
+I mostly used it for mundane things, like removing broken characters. There was one time where it helped me recover my work after I messed up syncing changes to the repo.​
+​
+### What's Still Unclear
+<!-- What questions do you still have? What needs more practice? -->
+Some of the syntax used in JavaScript is still new to me, so I need more exposure to that and what all that means.​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [x] Portfolio Audit
+​
+**Learn**
+- [x] Console Explorer
+- [x] Codedex Console Fundamentals
+​
+**Reflect**
+- [x] Visual Notes: Variables and Strings
+​
+**Build**
+- [x] The Setup
+- [ ] The Behavioral Layer
+​
+---
 
 ---
 
