@@ -53,7 +53,7 @@ Some of the syntax used in JavaScript is still new to me, so I need more exposur
 ​
 **Build**
 - [x] The Setup
-- [ ] The Behavioral Layer --> The work is all done, but the css and js files are not linked correctly at the moment. I am waiting to turn it in until then.
+- [x] The Behavioral Layer
 ​
 ---
 
