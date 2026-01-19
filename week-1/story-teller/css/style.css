@@ -4,6 +4,24 @@ body{
   color: #020202;
 }
 
+.btn{
+  background: #9f9f9f;
+  width: fit-content;
+  padding: 10px 30px;
+  margin: 30px auto;
+  border-radius: 3px;
+  border: 2px solid #9f9f9f;
+}
+.btn:hover{
+  background-color: #404040;
+  color: white;
+  border: 2px solid #303030;
+}
+.btn:active{
+  transform: scale(0.96);
+  border: 2px solid white;
+}
+
 .story-container {
   background-color: #cfcfcf;
   width: 60%;
@@ -27,20 +45,4 @@ body{
   width: 50%;
   margin: 0 auto;
   font-size: 1.2rem;
-}
-
-.btn{
-  background: #9f9f9f;
-  width: fit-content;
-  padding: 10px 30px;
-  margin: 30px auto;
-  border-radius: 3px;
-  border: 2px solid #9f9f9f;
-}
-.btn:hover{
-  background-color: #404040;
-  color: white;
-    border: 2px solid white;
-    border: 2px solid white;
-
 }
