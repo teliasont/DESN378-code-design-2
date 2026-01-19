@@ -3,6 +3,8 @@ const image = document.querySelector('.story-image img');
 const caption = document.querySelector('.story-text');
 const button = document.querySelector('.btn');
 const alt = document.querySelector('.story-image img').alt
+const background = document.querySelector('body');
+const container = document.querySelector('.story-container');
 
 // Story content
 const captions = [
@@ -124,5 +126,10 @@ button.addEventListener('click', function() {
     image.src = `assets/images/image-${currentStep + 1}.jpg`;
 
   }
+  if (currentStep >= 11) {
+    background.style.backgroundColor = '#EA9EBA';
+    container.style.backgroundColor = '#eae1dd';
+  }
 });
+
 
