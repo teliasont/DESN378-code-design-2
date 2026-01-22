@@ -20,7 +20,44 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 ---
 
-# Learning Log​
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+I learned more about JavaScript interactions, like how to update text, images, buttons, and colors using a for-loop to iterate through different states without linking to a new page each time.
+​
+​
+### What Was Hard
+Trying to keep track of all the moving parts of JavaScript. Plus, trying to remember all the necessary syntax for all of it. Also, all my other classes gave me a whole bunch of work :|​
+​
+### How I Used AI
+I can't quite remember what all I did, but I may have asked an AI to help my button update alongside the picture.​
+​
+### What's Still Unclear
+More general work with JS and figuring out all the bits.
+
+
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Variables
+- [x] HTML Academy 
+
+**Practice**
+- [x] The Story Teller
+
+**Build**
+- [x] Portfolio Migration
+- [ ] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [x] Visual Notes: Week 1---​
+​
+​
 ## Week 1​
 ### What I Learned
 <!-- What concepts clicked for you? What was new? -->
