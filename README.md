@@ -20,10 +20,41 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 ---
 
-# Learning Log
+# Learning Log​
+## Week 3​
+### What I Learned
+Learned about Figma variables and how to apply those to a Figma design with the intention of later translating that to code. I also learned about switching between light and dark modes.​
 ​
-## Week 2
+### What Was Hard
+I'm not particularly staying on top on things. Just not super motivated right now + other schoolwork with bigger priorities. The Figma variable narrator was soooo boring, and it was hard to stay focused.​
 ​
+### How I Used AI
+I did not use it last week, except for helping with merging branches in GitHub.​
+​
+### What's Still Unclear
+Still a little lost on Figma variables, but I think that's mostly due to a lack of practice. Finding where the "Apply Variables" button is can be annoying sometimes.
+
+### Work Completed (Week 1)
+
+**Engage**
+- [x] VS Code Theme Setup
+
+**Learn**
+- [x] Codedex.io Conditionals
+- [x] figma variables
+
+**Practice**
+- [x] The Switch
+
+**Build**
+- [ ] The Foundation
+- [x] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [ ] Visual Notes: Week 2---
+
+​
+## Week 2​
 ### What I Learned
 I learned more about JavaScript interactions, like how to update text, images, buttons, and colors using a for-loop to iterate through different states without linking to a new page each time.
 ​
@@ -57,6 +88,7 @@ More general work with JS and figuring out all the bits.
 **Reflect**
 - [x] Visual Notes: Week 1---​
 ​
+
 ​
 ## Week 1​
 ### What I Learned
