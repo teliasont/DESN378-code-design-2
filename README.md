@@ -21,6 +21,42 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ---
 
 # Learning Log​
+## Week 4
+​
+### What I Learned
+I learned about switching states (light/dark theme, for instance) through the power of JavaScript.​
+​
+### What Was Hard
+I have immense distaste for trying to figure out what I want in my portfolio, so I spent far too much time being annoyed at my design and trying to find ways to improve and update my design for the theme switch. Will I get around to the changes in layout any time soon? No idea! I'm behind on the workload for this class, so some of the concepts don't always click because I'm not using them straight away. But, I'm working on getting back on top of things.​
+​
+### How I Used AI
+None last week, I think.​
+​
+### What's Still Unclear
+Not sure because I haven't dived into the meat and bones of Week 3 yet :P We'll see what doesn't make sense when I get a little further into it.
+
+### Work Completed (Week 3)
+
+**Design Tokens**
+- [x] variables.css exists
+- [x] Color tokens defined
+- [x] Typography tokens defined
+- [x] Spacing tokens defined
+- [ ] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [ ] Uses data-theme on <html>
+- [ ] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [ ] Theme saved to localStorage
+- [ ] Theme persists on refresh
+- [ ] System preference used on first visit
+
+**Deployment**
+- [ ] Deployed to GitHub Pages
+- [ ] Repository is public
+​
 ## Week 3​
 ### What I Learned
 Learned about Figma variables and how to apply those to a Figma design with the intention of later translating that to code. I also learned about switching between light and dark modes.​
