@@ -6,39 +6,45 @@
   /* Your light mode colors go here */
 
   /*Primitive Values*/ 
-  --blue__cornflower:#0059b3;
-  --pink__brightpink:#f55371;
-  --blue__blueish:#3b4d97;
-  --white__100:#f9f9f9;
-  --orange__coralish:#ff5e3f;
-  --orange__marigold:#ff8c00;
-  --orange__tangerine:#ffa500;
-  --orange__orangered:#ff4500;
-  --red__darkbrick:#280905;
-  --yellow__bone:#faf3e1;
-  --blue__darkblueish:#1a2c76;
-  --black__offblack
+  --cornflower:#0059b3;
+  --brightpink:#f55371;
+  --blueish:#3b4d97;
+  --offwhite:#f9f9f9;
+  --coralish:#ff5e3f;
+  --marigold:#ff8c00;
+  --tangerine:#ffa500;
+  --orangered:#ff4500;
+  --darkbrick:#280905;
+  --bone:#faf3e1;
+  --darkblueish:#1a2c76;
+  --offblack: #030303;
+
+  --surface__primary:var(--cornflower);
+  --surface__secondary:var(--brightpink);
+  --text__primary:var(--offwhite);
+  --surface__card:var(--brightpink);
+  --surface__background:var(--darkblueish);
 }
 
 /*use this for place holder*/ 
 /* Light mode  */ 
 [data-theme="light"] 
 { /* Same variable names, different values */ 
-  --surface__primary:var(--blue/cornflower);
-  --surface__secondary:var(--pink/bright-pink);
-  --text__primary:var(--white/100);
-  --surface__card:var(--pink/bright-pink);
-  --surface__background:var(--blue/dark-blueish);
+  --surface__primary:var(--cornflower);
+  --surface__secondary:var(--brightpink);
+  --text__primary:var(--offwhite);
+  --surface__card:var(--brightpink);
+  --surface__background:var(--darkblueish);
 }
 
 /* Dark mode  */
 [data-theme="dark"] {
   /* Same variable names, different values */
-  --surface__primary:var(--red/darkbrick);
-  --surface__secondary:var(--orange/coralish);
-  --text__primary:var(--yellow/bone);
-  --surface__card:var(--red/darkbrick);
-  --surface__background:var(--black/offblack);
+  --surface__primary:var(--darkbrick);
+  --surface__secondary:var(--coralish);
+  --text__primary:var(--bone);
+  --surface__card:var(--darkbrick);
+  --surface__background:var(--offblack);
 }
 
 /* Typography Tokens */
@@ -55,13 +61,17 @@
 
 /* Spacing Tokens */
 :root {
-  --size4:4;
-  --size8:8;
-  --size12:12;
-  --size16:16;
-  --size32:32;
-  --size40:40;
-  --size48:48;
-  --size64:64;
-  --size72:72;
+  --size4:4px;
+  --size8:-8px;
+  --size12:12px;
+  --size16:16px;
+  --size32:32px;
+  --size40:40px;
+  --size48:48px;
+  --size64:64px;
+  --size72:72px;
+  --size1rem:1rem;
+  --size2rem:2rem;
+  --size3rem:3rem;
+  --size4rem:4rem;
 }

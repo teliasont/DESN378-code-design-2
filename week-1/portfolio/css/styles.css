@@ -5,6 +5,21 @@
      --light-yellow: #D4CEB8;
       --orange: #FF6E51;
   }
+
+  @font-face {
+  font-family: 'D-DIN';
+  src: url('assets/fonts/D-DIN.oft') format('opentype'),
+       url('assets/fonts/D-DIN-Italic.oft') format('opentype'),
+       url('assets/fonts/D-DIN-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINCondensed.oft') format('opentype'),
+       url('assets/fonts/D-DINCondensed-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINExp-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINExp-Italic.oft') format('opentype'),
+       url('assets/fonts/D-DINExp.oft') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
   
   /*-----CS RESET-----*/
   /* 1. Use a more-intuitive box-sizing model */
@@ -19,14 +34,15 @@
     margin: 0;
   }
   
+
   body {
     /* 3. Add accessible line-height */
     line-height: 1.5;
     /* 4. Improve text rendering */
     -webkit-font-smoothing: antialiased;
-    font-family: "Raleway", sans-serif;
-    background: #081c1e;
-    color: white;
+    font-family: "D-DIN", sans-serif;
+    background: var(--surface__primary);
+    color: var(--text-primary);
     font-style: normal;
   }
   
@@ -62,7 +78,6 @@
   /* 8. Improve line wrapping */
   p {
     text-wrap: pretty;
-      font-family
   }
   h1,
   h2,
@@ -199,422 +214,13 @@
     /*
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid rgba(255,255,255,0); /* Creates the line cursor*/
-   /* animation: typewriter 4s steps(35) 1s 1 normal both,
-               blinkTextCursor 500ms steps(35) 12 normal; */
-  }
-  
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 90%;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  }
-  #welcome-section p {
-    font-size: 1.25em;
-    padding-bottom: 10px;
-    margin: 0 auto;
-    display: block;
-  }
-  #welcome-section p:nth-of-type(1){
-     white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid rgba(255,255,255,0); /* Creates the line cursor*/
-    max-width: fit-content;
-    animation: typewriter 1s steps(30) 3s 1 normal both,
-               blinkTextCursor 500ms steps(35) 0.5s 9 normal;
-  }
-  
-  #welcome-section p:nth-of-type(2){
-     white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid rgba(255,255,255,0); /* Creates the line cursor*/
-    max-width: fit-content;
-    animation: typewriter 4s steps(62) 6s 1 normal both,
-               blinkTextCursor 500ms steps(35) 5s 9 normal;
-  }
-  
-  
-  .space {
-    background: rgba(255, 81, 122, 0.1) center / 200px 200px round;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  .stars1 {
-    animation: space 90s ease-in-out infinite;
-    background-image: 
-      radial-gradient(1px 1px at 25px 5px, var(--light-yellow), rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 50px 25px, var(--light-yellow), rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 125px 20px, var(--light-yellow), rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 50px 75px, var(--light-yellow), rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 15px 125px, var(--light-yellow), rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 110px 80px, var(--light-yellow), rgba(255, 255, 255, 0));
-  }
-  
-  .stars2 {
-    animation: space 120s ease-in-out infinite;
-    background-image: 
-      radial-gradient(1px 1px at 75px 125px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 100px 75px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 20px 50px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255, 255, 255, 0));
-  }
-  
-  .stars3 {
-    animation: space 150s ease-in-out infinite;
-    background-image: 
-      radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0)), 
-      radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0));
-  }
-  
-  @keyframes space {
-    40% {
-      opacity: 0.75;
-    }
-    50% {
-      opacity: 0.25;
-    }
-    60% {
-      opacity: 0.75;
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  /*-----ABOUT SECTION-----*/
-  #about {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    max-height: 600px;
-    background: var(--dark-cyan);
-    position: relative;
-    padding: 60px auto;
-  }
-  
-  #about img {
-    clip-path: circle(40%);
-    width: 100%;
-    margin: 0 auto;
-    max-width: 600px;
-    position: relative;
-    top: 10%;
-    z-index: 2;
-  }
-  .circle-container{
-    display: none;
-  }
-  .picture-container{
-    height: fit-content;
-    padding: 40px;
-   /*I'm so upset that I was able to do my cool effect from my original design but it gets ruined as soon as I change the flex box D: 
-    Here's my workaround*/
-  background: 
-    linear-gradient(35deg, 
-      
-      transparent 27%, 
-     var(--dark-cyan) 27%,
-      var(--dark-cyan) 30%, 
-     transparent 30%,
-      transparent 35%, 
-     var(--dark-cyan) 35%, 
-      var(--dark-cyan) 40%, 
-     transparent 40%,
-      transparent 100%),
-  radial-gradient(
-        circle at 45% 55%,
-            var(--light-pink) 40%, 
-      rgba(7,70,92,1) 40%, 
-      rgba(7,70,92,1) 100%); 
-  }
-  /*
-  .picture-container {
-    max-width: 50%;
-  }
-  
-  .circle-container{
-    width: 93%;
-    padding: 30px;
-    position: relative;
-    top: -56%;
-    left: -1%;
-  }
-    */
-  
-  .semicircle{
-    width: 100%;
-    height: 200px;
-    max-height: 50%;
-    background-color: var(--light-pink);
-    border-radius: 200px 200px 0 0;
-    margin: 0 auto 10px auto;
-  }
-  .line{
-     background-color: var(--light-pink);
-    width: 100%;
-    margin: 15px auto;
-  }
-  .line-1{
-    height: 15px;
-  }
-  .line-2{
-    height: 10px;
-  }
-  .line-3{
-    height: 5px;
-  }
-  
-  .cool-semicircle{
-    position: relative;
-    transform: rotate(35deg);
-    padding: 50px 50px 100px 50px;
-  }
-  
-  .text-container {
-    max-width: 50%;
-    padding: 10px;
-    align-content: center;
-  }
-  
-  #about p {
-    margin-bottom: 1.5em;
-    font-size: 1em;
-  }
-  
-  /*-----PROJECTS SECTION-----*/
-  #projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  #projects h2{
-    padding-top: 60px;
-    text-align: center;
-    margin: 0 30%;
-    margin-bottom: 40px;
-    display: block;
-    flex-wrap: nowrap;
-  }
-  #projects h2:hover{
-    font-family: "Rubik Glitch", Arial, sans-serif;
-    font-weight: 300;
-  }
-  .project-tile {
-    width: 40%;
-    max-height: 600px;
-    height: 100%;
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-    overflow: hidden;
-     background: linear-gradient(180deg, rgba(8,28,30,1) 10%, rgba(173,17,93,1) 10%, rgba(255,110,81,1) 100%),
-       linear-gradient(270deg, rgba(8,28,30,1) 20%, transparent 100%);
-  }
-  
-  #projects img {
-    margin: 0 auto;
-    width: 95%;
-    max-width: 1000px;
-    z-index: 1;
-    margin-left: 5%;
-    outline: 10px solid #081c1e;
-    outline-offset: -10px;
-  }
-  
-  
-  /*-----CONTACT STYLING-----*/
-  #contact{
-    background: var(--dark-cyan);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 30px;
-   
-  }
-  .contact-div {
-    display:flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .contact-div li, .contact-div a{
-    list-style-type: none;
-    padding-left: 0;
-     text-decoration: none;
-    color: white;
-     cursor: pointer;
-    margin: 10px auto;
-  }
-  .contact-div a:visited{
-   color: var(--light-pink);
-  }
-  .contact-div a:active{
-    border-radius: 7px;
-    padding: 5px;
-    background: #ef1d84;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-  .contact-div a:hover{
-    color: white;
-    text-shadow: -1px 2px 0px var(--orange);
-      font-weight: 800;
-  }
-  
-  
-  @media only screen and (max-width: 1140px){
-    .circle-container{
-      display: none;
-    }
-    .picture-container{
-      height: fit-content;
-      padding: 40px;
-     /*I'm so upset that I was able to do my cool effect from my original design but it gets ruined as soon as I change the flex box D: 
-      Here's my workaround*/
-    background: 
-      linear-gradient(35deg, 
-        
-        transparent 27%, 
-       var(--dark-cyan) 27%,
-        var(--dark-cyan) 30%, 
-       transparent 30%,
-        transparent 35%, 
-       var(--dark-cyan) 35%, 
-        var(--dark-cyan) 40%, 
-       transparent 40%,
-        transparent 100%),
-    radial-gradient(
-          circle at 45% 55%,
-              var(--light-pink) 40%, 
-        rgba(7,70,92,1) 40%, 
-        rgba(7,70,92,1) 100%); 
-    }
-  }
-  
-  @media only screen and (max-width: 768px) {
-    p{
-      font-size: 0.75em;
-    }
-    
-    /*---HAMBURGER MENU MAGIC-----*/
-    .menu-button {
-      display: block; /* Show hamburger on mobile*/
-      z-index: 999;
-      padding-right: 10px;
-    }
-  
-    .nav-menu {
-      position: fixed;
-      top: 0;
-      right: -100%; /* Hide off-screen initially */
-      width: 200px;
-      height: 100vh;
-      background-color: #222;
-      flex-direction: column;
-      padding: 80px 0 30px 0;
-      transition: right 0.3s ease;
-      z-index: 998;
-    }
-    .nav-menu li {
-      padding-left: 0 0.75em;
-    }
-  
-    /* When checkbox is checked, show the menu */
-    #menu-toggle:checked ~ .nav-menu {
-      right: 0;
-    }
-  
-    /* Animate hamburger to X when menu is open */
-    #menu-toggle:checked ~ .menu-button .hamburger {
-      background-color: transparent;
-    }
-  
-    #menu-toggle:checked ~ .menu-button .hamburger::before {
-      transform: rotate(45deg);
-      top: 0;
-    }
-  
-    #menu-toggle:checked ~ .menu-button .hamburger::after {
-      transform: rotate(-45deg);
-      bottom: 0;
-    }
-    
-    /*-----NAVBAR ELEMENTS----*/
-    #navbar img{
-      width: 10%;
-    }
-    
-    
-    /*-----WELCOME SECTION ELEMENTS-----*/
-    
-    h1{
-      font-size: 2.5em;
-      line-height: 1.25em;
-      margin-bottom: 0.5em;
-      text-wrap: pretty;
-    }
-    #welcome-section p{
-      font-size: 0.75em;
-    }
-    
-    /*-----ABOUT ELEMENTS-----*/
-    #about{
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      margin: 0 auto;
-     max-height: fit-content;
-      padding: 20px auto;
-    }
-    .circle-container{
-    display: none;
-    }
-    .picture-container{
-      max-width: 80%;
-      width: 80%;
-    }
-  #about img{
-      clip-path: circle(40%);
-    width: 100%;
-    max-width: 600px;
-  
-  }
-    .text-container{
-      max-width: 80%;
-      width: 80%;
-      background: var(--dark-cyan);
-    } 
-  
-    /*-----PROJECTS ELEMENTS----*/
-    #projects{
-     flex-direction: column;
-      align-content: center;
-    }
-    
-    .project-tile {
-    width: 80%;
-    }
-    /*----FOOTER/CONTACT ELEMENTS-----*/
-    #contact{
-      flex-direction: column;
-      font-size: 1em;
-    }
-    .contact-div h2{
-      font-size: 2em;
-    }
-  }  
+
+
+clear
+
+
+
+
+
+
+
