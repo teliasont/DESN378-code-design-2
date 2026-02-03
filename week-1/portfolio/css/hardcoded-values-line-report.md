@@ -1,239 +1,241 @@
 # Hard-coded values in week-1/portfolio/css/styles.css
+Line 1: @import "./variables.css"
+Line 3: --dark-cyan: #07465c
+Line 4: --light-pink: #FF5980
+Line 5: --light-yellow: #D4CEB8
+Line 6: --orange: #FF6E51
 
-File scanned: [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L1-L635)
+Line 11: url('assets/fonts/D-DIN.oft'), format('opentype')
+Line 12: url('assets/fonts/D-DIN-Italic.oft'), format('opentype')
+Line 13: url('assets/fonts/D-DIN-Bold.oft'), format('opentype')
+Line 14: url('assets/fonts/D-DINCondensed.oft'), format('opentype')
+Line 15: url('assets/fonts/D-DINCondensed-Bold.oft'), format('opentype')
+Line 16: url('assets/fonts/D-DINExp-Bold.oft'), format('opentype')
+Line 17: url('assets/fonts/D-DINExp-Italic.oft'), format('opentype')
+Line 18: url('assets/fonts/D-DINExp.oft'), format('opentype')
+Line 19: font-weight: normal
+Line 20: font-style: normal
 
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L1): `@import "./variables.css"`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L3): `--dark-cyan: #07465c`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L4): `--light-pink: #FF5980`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L5): `--light-yellow: #D4CEB8`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L6): `--orange: #FF6E51`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L11): `url('assets/fonts/D-DIN.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L12): `url('assets/fonts/D-DIN-Italic.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L13): `url('assets/fonts/D-DIN-Bold.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L14): `url('assets/fonts/D-DINCondensed.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L15): `url('assets/fonts/D-DINCondensed-Bold.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L16): `url('assets/fonts/D-DINExp-Bold.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L17): `url('assets/fonts/D-DINExp-Italic.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L18): `url('assets/fonts/D-DINExp.oft')`, `format('opentype')`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L19): `font-weight: normal`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L20): `font-style: normal`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L40): `line-height: 1.5`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L42): `-webkit-font-smoothing: antialiased`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L43): `font-family: "D-DIN", sans-serif`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L44): `background: var(--surface__primary)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L45): `color: var(--text-primary)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L101): `font-family: "Rubik"`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L102): `font-size: 3em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L103): `text-shadow: -2px 3px 0px #FF5980`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L104): `font-weight: 900`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L105): `margin-bottom: 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L111): `background: #02141e`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L113): `font-size: 1.75em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L114): `font-weight: 900`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L115): `z-index: 5`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L116): `position: fixed`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L117): `width: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L118): `top: 0`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L126): `width: 20%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L127): `max-width: 100px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L128): `margin:5px 10px 5px 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L132): `list-style-type: none`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L133): `display: flex`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L137): `color: white`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L138): `padding: 5px 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L141): `font-family: "Rubik Glitch"`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L142): `font-weight: 400`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L143): `border-radius: 13px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L144): `background: #ef1d84`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L145): `box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L151): `display: flex`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L152): `list-style: none`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L152-L153): `margin-left: 2rem`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L155): `display: none`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L158): `display: none` (comment: Hidden on desktop)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L163): `display: block`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L165): `width: 30px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L166): `height: 3px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L167): `background-color: white`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L169): `transition: all 0.3s ease`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L175-L181): `content: ""`, `width: 30px`, `height: 3px`, `background-color: white`, `position: absolute`, `transition: all 0.3s ease`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L185): `top: -8px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L189): `bottom: -8px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L193): `text-align: center`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L195): `height: 100vh`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L198): `padding: 10% 2%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L199): `background: radial-gradient(circle at bottom, var(--orange) 0, black 100%)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L200): `z-index: -2`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L207): `margin: 0 auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L210): `font-size: 3.5em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L211): `font-weight: 900`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L212): `z-index: 20`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L217): `border-right: 2px solid rgba(255,255,255,0)` (in-comment)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L223): `from { width: 0 }`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L224): `to { width: 90% }`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L227): `rgba(255,255,255,.75)` (in keyframes)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L231): `font-size: 1.25em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L232): `padding-bottom: 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L239): `border-right: 2px solid rgba(255,255,255,0)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L241): `animation: typewriter 1s steps(30) 3s 1 normal both`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L242): `blinkTextCursor 500ms steps(35) 0.5s 9`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L250): `animation: typewriter 4s steps(62) 6s 1 normal both`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L251): `blinkTextCursor 500ms steps(35) 5s 9`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L256): `background: rgba(255, 81, 122, 0.1) center / 200px 200px round`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L266): `animation: space 90s ease-in-out infinite`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L268): `radial-gradient(1px 1px at 25px 5px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L269): `radial-gradient(1px 1px at 50px 25px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L270): `radial-gradient(1px 1px at 125px 20px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L271): `radial-gradient(1.5px 1.5px at 50px 75px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L272): `radial-gradient(2px 2px at 15px 125px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L273): `radial-gradient(2.5px 2.5px at 110px 80px, var(--light-yellow), rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L277): `animation: space 120s ease-in-out infinite`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L279): `radial-gradient(1px 1px at 75px 125px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L280): `radial-gradient(1px 1px at 100px 75px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L281): `radial-gradient(1.5px 1.5px at 199px 100px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L282): `radial-gradient(2px 2px at 20px 50px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L283): `radial-gradient(2.5px 2.5px at 100px 5px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L284): `radial-gradient(2.5px 2.5px at 5px 5px, white, rgba(255,255,255,0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L288): `animation: space 150s ease-in-out infinite`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L290): `radial-gradient(1px 1px at 10px 10px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L291): `radial-gradient(1px 1px at 150px 150px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L292): `radial-gradient(1.5px 1.5px at 60px 170px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L293): `radial-gradient(1.5px 1.5px at 175px 180px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L294): `radial-gradient(2px 2px at 195px 95px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L295): `radial-gradient(2.5px 2.5px at 95px 145px, white, rgba(255, 255, 255, 0))`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L299): `40%` (keyframe)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L300): `opacity: 0.75`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L302): `50%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L303): `opacity: 0.25`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L305): `60%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L306): `opacity: 0.75`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L309): `transform: rotate(360deg)` (`360deg`)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L317): `max-height: 600px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L318): `background: var(--dark-cyan)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L320): `padding: 60px auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L323): `clip-path: circle(40%)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L325): `width: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L327): `max-width: 600px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L329): `top: 10%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L330): `z-index: 2`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L333): `display: none`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L337): `padding: 40px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L341): `linear-gradient(35deg, ...)` (`35deg`)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L343): `transparent 27%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L344): `var(--dark-cyan) 27%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L345): `var(--dark-cyan) 30%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L346): `transparent 30%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L347): `transparent 35%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L348): `var(--dark-cyan) 35%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L349): `var(--dark-cyan) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L350): `transparent 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L351): `transparent 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L353): `radial-gradient(circle at 45% 55%, ...)` (`45%`, `55%`)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L354): `var(--light-pink) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L355): `rgba(7,70,92,1) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L356): `rgba(7,70,92,1) 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L372): `width: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L374): `height: 200px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L375): `max-height: 50%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L376): `background-color: var(--light-pink)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L377): `border-radius: 200px 200px 0 0`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L378): `margin: 0 auto 10px auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L381): `background-color: var(--light-pink)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L382): `width: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L383): `margin: 15px auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L386): `height: 15px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L389): `height: 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L392): `height: 5px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L397): `transform: rotate(35deg)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L398): `padding: 50px 50px 100px 50px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L402): `max-width: 50%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L403): `padding: 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L407): `margin-bottom: 1.5em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L409): `font-size: 1em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L419): `padding-top: 60px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L421): `margin: 0 30%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L422): `margin-bottom: 40px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L430): `width: 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L432): `max-height: 600px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L433): `height: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L438): `margin-bottom: 30px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L440): `background: linear-gradient(180deg, rgba(8,28,30,1) 10%, rgba(173,17,93,1) 10%, rgba(255,110,81,1) 100%)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L441): `linear-gradient(270deg, rgba(8,28,30,1) 20%, transparent 100%)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L446): `width: 95%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L447): `max-width: 1000px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L448): `z-index: 1`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L449): `margin-left: 5%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L450): `outline: 10px solid #081c1e`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L451): `outline-offset: -10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L456): `background: var(--dark-cyan)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L458): `display: flex`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L461): `padding: 20px 30px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L464): `display: flex`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L466): `flex-wrap: wrap`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L471): `list-style-type: none`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L475): `color: white`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L477): `margin: 10px auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L480): `color: var(--light-pink)` (visited)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L483): `border-radius: 7px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L484): `padding: 5px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L485): `background: #ef1d84`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L486): `box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L490): `text-shadow: -1px 2px 0px var(--orange)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L491): `font-weight: 800`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L495): `@media only screen and (max-width: 1140px)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L499): `padding: 40px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L505): `linear-gradient(35deg, ...)` (`35deg`)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L507): `transparent 27%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L508): `var(--dark-cyan) 27%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L509): `var(--dark-cyan) 30%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L510): `transparent 30%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L511): `transparent 35%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L512): `var(--dark-cyan) 35%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L513): `var(--dark-cyan) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L514): `transparent 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L515): `transparent 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L517): `radial-gradient(circle at 45% 55%, ...)` (`45%`, `55%`)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L518): `var(--light-pink) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L519): `rgba(7,70,92,1) 40%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L520): `rgba(7,70,92,1) 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L524): `@media only screen and (max-width: 768px)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L526): `font-size: 0.75em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L531): `display: block`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L532): `z-index: 999`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L533): `padding-right: 10px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L536): `position: fixed`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L539): `right: -100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L540): `width: 200px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L541): `height: 100vh`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L542): `background-color: #222`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L544): `padding: 80px 0 30px 0`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L545): `transition: right 0.3s ease`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L546): `z-index: 998`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L549): `padding-left: 0 0.75em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L553): `right: 0` (menu checked)
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L558): `background-color: transparent`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L562): `transform: rotate(45deg)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L563): `top: 0`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L567): `transform: rotate(-45deg)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L569): `bottom: 0`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L574): `width: 10%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L581): `font-size: 2.5em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L582): `line-height: 1.25em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L583): `margin-bottom: 0.5em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L586): `font-size: 0.75em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L591): `flex-direction: column`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L595): `margin: 0 auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L596): `max-height: fit-content`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L597): `padding: 20px auto`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L603): `max-width: 80%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L604): `width: 80%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L606): `clip-path: circle(40%)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L608): `width: 100%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L609): `max-width: 600px`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L613): `max-width: 80%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L614): `width: 80%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L615): `background: var(--dark-cyan)`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L625): `width: 80%`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L629): `font-size: 1em`
-- [week-1/portfolio/css/styles.css](week-1/portfolio/css/styles.css#L633): `font-size: 2em`
+Line 40: line-height: 1.5
+Line 42: -webkit-font-smoothing: antialiased
+Line 43: font-family: "D-DIN", sans-serif
+Line 44: background: var(--surface__primary)
+Line 45: color: var(--text-primary)
 
+Line 101: font-family: "Rubik"
+Line 102: font-size: 3em
+Line 103: text-shadow: -2px 3px 0px #FF5980
+Line 104: font-weight: 900
+Line 105: margin-bottom: 10px
+
+Line 111: background: #02141e
+Line 113: font-size: 1.75em
+Line 114: font-weight: 900
+Line 115: z-index: 5
+Line 116: position: fixed
+Line 117: width: 100%
+Line 118: top: 0
+
+Line 126: width: 20%
+Line 127: max-width: 100px
+Line 128: margin: 5px 10px 5px 10px
+Line 132: list-style-type: none
+Line 133: display: flex
+Line 137: color: white
+Line 138: padding: 5px 10px
+
+Line 141: font-family: "Rubik Glitch"
+Line 142: font-weight: 400
+Line 143: border-radius: 13px
+Line 144: background: #ef1d84
+Line 145: box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+
+Line 151: display: flex
+Line 152: list-style: none
+Line 152–153: margin-left: 2rem
+Line 155: display: none
+Line 158: display: none (hidden on desktop)
+Line 163: display: block
+
+Line 165: width: 30px
+Line 166: height: 3px
+Line 167: background-color: white
+Line 169: transition: all 0.3s ease
+
+Line 175–181: content: "", width: 30px, height: 3px, background-color: white, position: absolute, transition: all 0.3s ease
+Line 185: top: -8px
+Line 189: bottom: -8px
+
+Line 193: text-align: center
+Line 195: height: 100vh
+Line 198: padding: 10% 2%
+Line 199: background: radial-gradient(circle at bottom, var(--orange) 0, black 100%)
+Line 200: z-index: -2
+
+Line 207: margin: 0 auto
+Line 210: font-size: 3.5em
+Line 211: font-weight: 900
+Line 212: z-index: 20
+
+Line 217: border-right: 2px solid rgba(255,255,255,0)
+Line 223: from { width: 0 }
+Line 224: to { width: 90% }
+Line 227: rgba(255,255,255,.75)
+
+Line 231: font-size: 1.25em
+Line 232: padding-bottom: 10px
+
+Line 239: border-right: 2px solid rgba(255,255,255,0)
+Line 241: animation: typewriter 1s steps(30) 3s 1 normal both
+Line 242: blinkTextCursor 500ms steps(35) 0.5s 9
+Line 250: animation: typewriter 4s steps(62) 6s 1 normal both
+Line 251: blinkTextCursor 500ms steps(35) 5s 9
+
+Line 256: background: rgba(255, 81, 122, 0.1) center / 200px 200px round
+Line 266: animation: space 90s ease-in-out infinite
+
+Line 268–273: multiple radial-gradient(...) values using var(--light-yellow)
+Line 277: animation: space 120s ease-in-out infinite
+
+Line 279–284: multiple radial-gradient(...) values using white
+Line 288: animation: space 150s ease-in-out infinite
+
+Line 290–295: multiple radial-gradient(...) values using white
+
+Line 299: 40%
+Line 300: opacity: 0.75
+Line 302: 50%
+Line 303: opacity: 0.25
+Line 305: 60%
+Line 306: opacity: 0.75
+Line 309: transform: rotate(360deg)
+
+Line 317: max-height: 600px
+Line 318: background: var(--dark-cyan)
+Line 320: padding: 60px auto
+Line 323: clip-path: circle(40%)
+Line 325: width: 100%
+Line 327: max-width: 600px
+Line 329: top: 10%
+Line 330: z-index: 2
+Line 333: display: none
+
+Line 337: padding: 40px
+Line 341: linear-gradient(35deg, ...)
+
+Line 343–351: multiple transparent / var(--dark-cyan) percentage stops
+
+Line 353: radial-gradient(circle at 45% 55%, ...)
+Line 354: var(--light-pink) 40%
+Line 355: rgba(7,70,92,1) 40%
+Line 356: rgba(7,70,92,1) 100%
+
+Line 372: width: 100%
+Line 374: height: 200px
+Line 375: max-height: 50%
+Line 376: background-color: var(--light-pink)
+Line 377: border-radius: 200px 200px 0 0
+Line 378: margin: 0 auto 10px auto
+
+Line 381: background-color: var(--light-pink)
+Line 382: width: 100%
+Line 383: margin: 15px auto
+Line 386: height: 15px
+Line 389: height: 10px
+Line 392: height: 5px
+
+Line 397: transform: rotate(35deg)
+Line 398: padding: 50px 50px 100px 50px
+Line 402: max-width: 50%
+Line 403: padding: 10px
+Line 407: margin-bottom: 1.5em
+Line 409: font-size: 1em
+
+Line 419: padding-top: 60px
+Line 421: margin: 0 30%
+Line 422: margin-bottom: 40px
+
+Line 430: width: 40%
+Line 432: max-height: 600px
+Line 433: height: 100%
+Line 438: margin-bottom: 30px
+
+Line 440: background: linear-gradient(180deg, rgba(8,28,30,1) 10%, rgba(173,17,93,1) 10%, rgba(255,110,81,1) 100%)
+Line 441: linear-gradient(270deg, rgba(8,28,30,1) 20%, transparent 100%)
+
+Line 446: width: 95%
+Line 447: max-width: 1000px
+Line 448: z-index: 1
+Line 449: margin-left: 5%
+Line 450: outline: 10px solid #081c1e
+Line 451: outline-offset: -10px
+
+Line 456: background: var(--dark-cyan)
+Line 458: display: flex
+Line 461: padding: 20px 30px
+Line 464: display: flex
+Line 466: flex-wrap: wrap
+Line 471: list-style-type: none
+Line 475: color: white
+Line 477: margin: 10px auto
+Line 480: color: var(--light-pink)
+Line 483: border-radius: 7px
+Line 484: padding: 5px
+Line 485: background: #ef1d84
+Line 486: box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+Line 490: text-shadow: -1px 2px 0px var(--orange)
+Line 491: font-weight: 800
+
+Line 495: @media only screen and (max-width: 1140px)
+Line 499: padding: 40px
+
+Line 505–515: repeated gradient stop values (35deg, percentages)
+
+Line 517: radial-gradient(circle at 45% 55%, ...)
+Line 518: var(--light-pink) 40%
+Line 519: rgba(7,70,92,1) 40%
+Line 520: rgba(7,70,92,1) 100%
+
+Line 524: @media only screen and (max-width: 768px)
+Line 526: font-size: 0.75em
+Line 531: display: block
+Line 532: z-index: 999
+Line 533: padding-right: 10px
+Line 536: position: fixed
+Line 539: right: -100%
+Line 540: width: 200px
+Line 541: height: 100vh
+Line 542: background-color: #222
+Line 544: padding: 80px 0 30px 0
+Line 545: transition: right 0.3s ease
+Line 546: z-index: 998
+Line 549: padding-left: 0 0.75em
+Line 553: right: 0
+
+Line 558: background-color: transparent
+Line 562: transform: rotate(45deg)
+Line 563: top: 0
+Line 567: transform: rotate(-45deg)
+Line 569: bottom: 0
+
+Line 574: width: 10%
+Line 581: font-size: 2.5em
+Line 582: line-height: 1.25em
+Line 583: margin-bottom: 0.5em
+Line 586: font-size: 0.75em
+
+Line 591: flex-direction: column
+Line 595: margin: 0 auto
+Line 596: max-height: fit-content
+Line 597: padding: 20px auto
+Line 603: max-width: 80%
+Line 604: width: 80%
+Line 606: clip-path: circle(40%)
+Line 608: width: 100%
+Line 609: max-width: 600px
+Line 613: max-width: 80%
+Line 614: width: 80%
+Line 615: background: var(--dark-cyan)
+Line 625: width: 80%
+Line 629: font-size: 1em
+Line 633: font-size: 2em

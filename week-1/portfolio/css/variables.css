@@ -50,8 +50,8 @@
 /* Typography Tokens */
 /* The heading and paragraph styles may need some updating as the exporter didn't transfer them right. I'm assuming they'll work as they currently are, but we'll see.*/
 :root {
-  --fonts__bodytextfamily:D-DIN;
-  --fonts__headingfamily:Bebas Neue;
+  --bodytextfamily: D-DIN;
+  --headingfamily: Bebas Neue;
   --h1size:var(--size64);
   --h2size:var(--size48);
   --h3size:var(--size32);
