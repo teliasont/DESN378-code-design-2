@@ -31,6 +31,14 @@
   --surface__background:var(--darkblueish);
   --surface__spacegradient: var(--starrynightgradient);
   --surface__spacebg: var(--starrynightbg);
+  /*
+  --animation-space: space 160s ease-in-out infinite;
+  --animation-typewriter-1: typewriter 1s steps(30) 3s 1 normal both;
+  --animation-typewriter-2: typewriter 4s steps(62) 6s 1 normal both;
+  --animation-textCursor-1: blinkTextCursor 500ms steps(35) 0.5s 9 normal;
+  --animation-textCursor-2: blinkTextCursor 500ms steps(35) 5s 9 normal;
+  */
+
 }
 
 /*use this for place holder*/ 
@@ -57,6 +65,23 @@
   --surface__spacegradient: var(--blackholegradient);
   --surface__spacebg: var(--blackholebg);
 }
+/*
+[data-motionPreference="reduced"] {
+  --animation-space: none;
+  --animation-typewriter-1: none;
+  --animation-typewriter-2: none;
+  --animation-textCursor: none;
+  --animation-textCursor-1: none;
+  --animation-textCursor-2: none;
+}
+[data-motionPreference="no-preference"] {
+  --animation-space: space 160s ease-in-out infinite;
+  --animation-typewriter-1: typewriter 1s steps(30) 3s 1 normal both;
+  --animation-typewriter-2: typewriter 4s steps(62) 6s 1 normal both;
+  --animation-textCursor-1: blinkTextCursor 500ms steps(35) 0.5s 9 normal;
+  --animation-textCursor-2: blinkTextCursor 500ms steps(35) 5s 9 normal;      
+}
+*/
 
 /* Typography Tokens */
 /* The heading and paragraph styles may need some updating as the exporter didn't transfer them right. I'm assuming they'll work as they currently are, but we'll see.*/

@@ -1,12 +1,6 @@
 @import "./variables.css";
 
 /*Button menu idea: https://codepen.io/GeoffreyCrofte/pen/nybYBm */
-:root {
-    --dark-cyan: #07465c;
-    --light-pink: #FF5980;
-     --light-yellow: #D4CEB8;
-      --orange: #FF6E51;
-  }
 
   @font-face {
   font-family: 'D-DIN';
@@ -565,3 +559,13 @@
       font-size: 2em;
     }
   }  
+
+  @media (prefers-reduced-motion: reduce) {
+    .typewriter,
+    .blinkTextCursor
+    .space {
+      transition: none;
+    animation: none;
+    }
+  }
+
