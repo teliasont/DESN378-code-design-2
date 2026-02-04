@@ -19,11 +19,18 @@
   --darkblueish:#1a2c76;
   --offblack: #030303;
 
+  --blackholegradient: radial-gradient(circle, black 5%, orangered 10%, darkorange 20%,  orangered 30%, black 70%);
+  --blackholebg: rgba(128, 12,0, 0.1) center / 200px 200px round;
+  --starrynightgradient: radial-gradient(circle at bottom, var(--surface__primary) 0, var(--surface__primary) 45%, var(--darkblueish) 100%);
+  --starrynightbg: rgba(255, 81, 122, 0.1) center / 200px 200px round;    
+
   --surface__primary:var(--cornflower);
   --surface__secondary:var(--brightpink);
   --text__primary:var(--offwhite);
   --surface__card:var(--brightpink);
   --surface__background:var(--darkblueish);
+  --surface__spacegradient: var(--starrynightgradient);
+  --surface__spacebg: var(--starrynightbg);
 }
 
 /*use this for place holder*/ 
@@ -35,6 +42,8 @@
   --text__primary:var(--offwhite);
   --surface__card:var(--brightpink);
   --surface__background:var(--darkblueish);
+  --surface__spacegradient: var(--starrynightgradient);
+  --surface__spacebg: var(--starrynightbg);
 }
 
 /* Dark mode  */
@@ -45,6 +54,8 @@
   --text__primary:var(--bone);
   --surface__card:var(--darkbrick);
   --surface__background:var(--offblack);
+  --surface__spacegradient: var(--blackholegradient);
+  --surface__spacebg: var(--blackholebg);
 }
 
 /* Typography Tokens */
