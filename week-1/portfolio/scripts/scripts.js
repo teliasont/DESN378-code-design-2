@@ -27,7 +27,7 @@ themeToggle.addEventListener("click", function () {
 
 
 /*
-const motionToggle = document.querySelector(".motion-toggle");
+const animationToggle = document.querySelector(".animation-toggle");
 const savedMotionPreference = localStorage.getItem('motionPreference');
 
 if (savedMotionPreference) {

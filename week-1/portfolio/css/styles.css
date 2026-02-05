@@ -203,15 +203,7 @@
     align-content: center;
   }
   
-  .space-container {
-     background: var(--surface__spacegradient);
-    position: fixed; /* Fixes the div relative to the browser window */
-    top: 0;          /* Aligns to the top edge */
-    left: 0;         /* Aligns to the left edge */
-    width: 100vw;    /* Takes 100% of the viewport width */
-    height: 100vh;   /* Takes 100% of the viewport height */
-    z-index: -10;
-  }
+  
   #welcome-section h1, #welcome-section p {
     margin: 0 auto;
     z-index: 20;
@@ -265,6 +257,15 @@
     top: 0;
     z-index: -1;
   }
+  .space-container {
+     background: var(--surface__spacegradient);
+    position: fixed; /* Fixes the div relative to the browser window */
+    top: 0;          /* Aligns to the top edge */
+    left: 0;         /* Aligns to the left edge */
+    width: 100vw;    /* Takes 100% of the viewport width */
+    height: 100vh;   /* Takes 100% of the viewport height */
+    z-index: -10;
+  }
   
   .stars1 {
     animation: space 80s ease-in-out infinite;
@@ -298,6 +299,17 @@
       radial-gradient(2px 2px at 195px 95px, var(--offwhite), rgba(255, 255, 255, 0)), 
       radial-gradient(2.5px 2.5px at 95px 145px, var(--offwhite), rgba(255, 255, 255, 0));
   }
+  .stars4{
+    background-image: 
+      radial-gradient(1px 1px at 10px 10px, var(--offwhite), rgba(255, 255, 255, 0)), 
+      radial-gradient(1px 1px at 150px 150px, var(--offwhite), rgba(255, 255, 255, 0)), 
+      radial-gradient(1.5px 1.5px at 60px 170px, var(--offwhite), rgba(255, 255, 255, 0)), 
+      radial-gradient(1.5px 1.5px at 175px 180px, var(--offwhite), rgba(255, 255, 255, 0)), 
+      radial-gradient(2px 2px at 195px 95px, var(--offwhite), rgba(255, 255, 255, 0)), 
+      radial-gradient(2.5px 2.5px at 95px 145px, var(--offwhite), rgba(255, 255, 255, 0));
+      opacity: 0.4;
+  }
+
   
   @keyframes space {
     40% {
