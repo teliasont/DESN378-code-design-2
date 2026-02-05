@@ -4,7 +4,12 @@ const savedTheme = localStorage.getItem('theme');
 
 if (savedTheme) {
   document.documentElement.dataset.theme = savedTheme;
+} else {
+  // No saved choice — check system preference
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.dataset.theme = prefersDark ? 'dark' : 'light';
 }
+
 
 themeToggle.addEventListener("click", function () {
 	const currentTheme = document.documentElement.dataset.theme;
@@ -17,6 +22,10 @@ themeToggle.addEventListener("click", function () {
 	document.documentElement.dataset.theme = newTheme;
 	localStorage.setItem('theme', newTheme);
 });
+
+
+
+
 /*
 const motionToggle = document.querySelector(".motion-toggle");
 const savedMotionPreference = localStorage.getItem('motionPreference');
