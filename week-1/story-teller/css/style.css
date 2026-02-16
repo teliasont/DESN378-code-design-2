@@ -1,0 +1,48 @@
+body{
+  background-color: #404040;
+  font-family: "Spectral", serif;
+  color: #020202;
+}
+
+.btn{
+  background: #9f9f9f;
+  width: fit-content;
+  padding: 10px 30px;
+  margin: 30px auto;
+  border-radius: 3px;
+  border: 2px solid #9f9f9f;
+}
+.btn:hover{
+  background-color: #404040;
+  color: white;
+  border: 2px solid #303030;
+}
+.btn:active{
+  transform: scale(0.96);
+  border: 2px solid white;
+}
+
+.story-container {
+  background-color: #cfcfcf;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.story-image {
+  object-fit: cover;
+  width: 40%;
+  margin: 30px auto;
+}
+
+.story-image img {
+  width: 100%;
+    object-fit: cover;
+
+}
+
+.story-text{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}

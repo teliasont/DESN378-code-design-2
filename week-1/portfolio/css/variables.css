@@ -1,0 +1,125 @@
+/*-------------Design Tokens - Tayla's Portfolio -------------*/
+
+  @font-face {
+  font-family: 'D-DIN';
+  src: url('assets/fonts/D-DIN.oft') format('opentype'),
+       url('assets/fonts/D-DIN-Italic.oft') format('opentype'),
+       url('assets/fonts/D-DIN-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINCondensed.oft') format('opentype'),
+       url('assets/fonts/D-DINCondensed-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINExp-Bold.oft') format('opentype'),
+       url('assets/fonts/D-DINExp-Italic.oft') format('opentype'),
+       url('assets/fonts/D-DINExp.oft') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Color Tokens */
+:root {
+  /* Your light mode colors go here */
+
+  /*Primitive Values*/ 
+  --cornflower:#0059b3;
+  --brightpink:#f55371;
+  --blueish:#3b4d97;
+  --offwhite:#f9f9f9;
+  --coralish:#ff5e3f;
+  --marigold:#ff8c00;
+  --tangerine:#ffa500;
+  --orangered:#ff4500;
+  --darkbrick:#280905;
+  --bone:#faf3e1;
+  --darkblueish:#1a2c76;
+  --offblack: #030303;
+
+  --blackholegradient: radial-gradient(circle, black 5%, orangered 10%, darkorange 20%,  orangered 30%, black 70%);
+  --blackholebg: rgba(128, 12,0, 0.1) center / 200px 200px round;
+  --starrynightgradient: radial-gradient(circle at bottom, var(--surface__primary) 0, var(--surface__primary) 45%, var(--darkblueish) 100%);
+  --starrynightbg: rgba(255, 81, 122, 0.1) center / 200px 200px round;    
+
+  --surface__primary:var(--cornflower);
+  --surface__secondary:var(--brightpink);
+  --text__primary:var(--offwhite);
+  --surface__card:var(--brightpink);
+  --surface__background:var(--darkblueish);
+  --surface__spacegradient: var(--starrynightgradient);
+  --surface__spacebg: var(--starrynightbg);
+  /*
+  --animation-space: space 160s ease-in-out infinite;
+  --animation-typewriter-1: typewriter 1s steps(30) 3s 1 normal both;
+  --animation-typewriter-2: typewriter 4s steps(62) 6s 1 normal both;
+  --animation-textCursor-1: blinkTextCursor 500ms steps(35) 0.5s 9 normal;
+  --animation-textCursor-2: blinkTextCursor 500ms steps(35) 5s 9 normal;
+  */
+
+}
+
+/*use this for place holder*/ 
+/* Light mode  */ 
+[data-theme="light"] 
+{ /* Same variable names, different values */ 
+  --surface__primary:var(--cornflower);
+  --surface__secondary:var(--brightpink);
+  --text__primary:var(--offwhite);
+  --surface__card:var(--brightpink);
+  --surface__background:var(--darkblueish);
+  --surface__spacegradient: var(--starrynightgradient);
+  --surface__spacebg: var(--starrynightbg);
+}
+
+/* Dark mode  */
+[data-theme="dark"] {
+  /* Same variable names, different values */
+  --surface__primary:var(--darkbrick);
+  --surface__secondary:var(--coralish);
+  --text__primary:var(--bone);
+  --surface__card:var(--darkbrick);
+  --surface__background:var(--offblack);
+  --surface__spacegradient: var(--blackholegradient);
+  --surface__spacebg: var(--blackholebg);
+}
+/*
+[data-motionPreference="reduced"] {
+  --animation-space: none;
+  --animation-typewriter-1: none;
+  --animation-typewriter-2: none;
+  --animation-textCursor: none;
+  --animation-textCursor-1: none;
+  --animation-textCursor-2: none;
+}
+[data-motionPreference="no-preference"] {
+  --animation-space: space 160s ease-in-out infinite;
+  --animation-typewriter-1: typewriter 1s steps(30) 3s 1 normal both;
+  --animation-typewriter-2: typewriter 4s steps(62) 6s 1 normal both;
+  --animation-textCursor-1: blinkTextCursor 500ms steps(35) 0.5s 9 normal;
+  --animation-textCursor-2: blinkTextCursor 500ms steps(35) 5s 9 normal;      
+}
+*/
+
+/* Typography Tokens */
+/* The heading and paragraph styles may need some updating as the exporter didn't transfer them right. I'm assuming they'll work as they currently are, but we'll see.*/
+:root {
+  --bodytextfamily: "D-DIN";
+  --headingfamily: "Bebas Neue";
+  --h1size:var(--size64);
+  --h2size:var(--size48);
+  --h3size:var(--size32);
+  --psize:var(--size16);
+  --captionsize:var(--size12);
+}
+
+/* Spacing Tokens */
+:root {
+  --size4:4px;
+  --size8:8px;
+  --size12:12px;
+  --size16:16px;
+  --size32:32px;
+  --size40:40px;
+  --size48:48px;
+  --size64:64px;
+  --size72:72px;
+  --size1rem:1rem;
+  --size2rem:2rem;
+  --size3rem:3rem;
+  --size4rem:4rem;
+}

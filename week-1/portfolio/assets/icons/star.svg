@@ -1,0 +1,19 @@
+<svg viewBox="-150 -150 250 250" class="star">
+      <g transform="translate(0 5)">
+        <g>
+          <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" />
+        </g>
+        <g transform="rotate(72)">
+          <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" />
+        </g>
+        <g transform="rotate(-72)">
+          <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" />
+        </g>
+        <g transform="rotate(144)">
+          <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" />
+        </g>
+        <g transform="rotate(-144)">
+          <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" />
+        </g>
+      </g>
+    </svg>

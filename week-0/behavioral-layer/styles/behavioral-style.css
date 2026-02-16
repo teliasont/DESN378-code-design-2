@@ -1,0 +1,83 @@
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  --old-navy: #223843ff;
+  --burnt-peach: #d77a61ff;
+  --lobster-pink: #d36060ff;
+  --pacific-blue: #61a0afff;
+  --pale-sky: #b4d4eeff;  
+ color: #f4f2e8;
+
+  background-color: #222334;
+
+}
+
+
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  font-family: 'Concert One', sans-serif;
+  margin: 0;
+  padding: 20px 0;
+  color: #d7d3e0;
+  text-shadow: 3px 3px 1px #11060e;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+  font-weight: 600;
+  text-shadow: 3px 3px 1px #11060e;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin-bottom: 3%;
+  padding: 0 20px;
+}
+
+.quote{
+  background-color: var(--burnt-peach);
+  padding: 25px;
+  border: 2px solid #f4f2e8;
+  text-wrap: pretty;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ab4848;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Button Styling from MrPierra on CodePen (https://codepen.io/pirrera/pen/bqVeGx)*/
+.btn-5 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 8% auto 5% auto;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--old-navy);
+  border-radius: 10px;
+ }

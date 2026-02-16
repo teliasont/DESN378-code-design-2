@@ -1,0 +1,67 @@
+/*-------------Design Tokens - Tayla's Portfolio -------------*/
+
+
+/* Color Tokens */
+:root {
+  /* Your light mode colors go here */
+
+  /*Primitive Values*/ 
+  --blue__cornflower:#0059b3;
+  --pink__brightpink:#f55371;
+  --blue__blueish:#3b4d97;
+  --white__100:#f9f9f9;
+  --orange__coralish:#ff5e3f;
+  --orange__marigold:#ff8c00;
+  --orange__tangerine:#ffa500;
+  --orange__orangered:#ff4500;
+  --red__darkbrick:#280905;
+  --yellow__bone:#faf3e1;
+  --blue__darkblueish:#1a2c76;
+  --black__offblack
+}
+
+/*use this for place holder*/ 
+/* Light mode  */ 
+[data-theme="light"] 
+{ /* Same variable names, different values */ 
+  --surface__primary:var(--blue/cornflower);
+  --surface__secondary:var(--pink/bright-pink);
+  --text__primary:var(--white/100);
+  --surface__card:var(--pink/bright-pink);
+  --surface__background:var(--blue/dark-blueish);
+}
+
+/* Dark mode  */
+[data-theme="dark"] {
+  /* Same variable names, different values */
+  --surface__primary:var(--red/darkbrick);
+  --surface__secondary:var(--orange/coralish);
+  --text__primary:var(--yellow/bone);
+  --surface__card:var(--red/darkbrick);
+  --surface__background:var(--black/offblack);
+}
+
+/* Typography Tokens */
+/* The heading and paragraph styles may need some updating as the exporter didn't transfer them right. I'm assuming they'll work as they currently are, but we'll see.*/
+:root {
+  --fonts__bodytextfamily:D-DIN;
+  --fonts__headingfamily:Bebas Neue;
+  --h1size:var(--size64);
+  --h2size:var(--size48);
+  --h3size:var(--size32);
+  --psize:var(--size16);
+  --captionsize:var(--size12);
+}
+
+/* Spacing Tokens */
+:root {
+  --size4:4;
+  --size8:8;
+  --size12:12;
+  --size16:16;
+  --size32:32;
+  --size40:40;
+  --size48:48;
+  --size64:64;
+  --size72:72;
+}

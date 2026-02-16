@@ -1,0 +1,37 @@
+/* Design tokens — your single source of truth */
+:root {
+  --color-surface: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #0066cc;
+}
+
+/* Dark mode overrides — fill in the values */
+/* HINT: What colors work for dark mode? Light text on dark background */
+body.dark {
+  --color-surface: #1e1e1e;  /* What background color for dark mode? */
+  --color-text: #ededed;     /* What text color for dark mode? */
+  --color-accent: #1eac36;   /* What accent color for dark mode? */
+}
+
+/* Apply tokens to elements */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+.theme-toggle {
+  background: var(--color-accent);
+  color: var(--color-surface);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
