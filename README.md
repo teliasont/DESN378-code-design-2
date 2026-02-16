@@ -20,7 +20,33 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 
 ---
 
-# Learning Log​
+# Learning Log
+## Week 5
+​
+### What I Learned
+I learned about SVGs and their different properties. We went over the basics of how they function, SVG primitives (circle, rect, ellipse, line, polygon, etc), and more advanced properties of SVGs, like paths. I also learned more about JavaScript in my implementation of a three-state dropdown menu. The menu switches between light mode, dark mode, and the system's light/dark preferences.​
+​
+### What Was Hard
+Getting all of the SVG path properties under control was a bit rough. There is a lot going on. The Beizer curves are the toughest for me, because it is hard to visualize where the curve will be pulled towards without a handle or point to mark it. A grid would probably help.
+​
+​
+### How I Used AI
+I used it for help in understanding the JavaScript behind the dropdown menu and for fixing a mistake where I had put an SVG inside an SVG that was causing things to go all wonky.
+​
+​
+### What's Still Unclear
+Still a little fuzzy on some of the JavaScript for the dropdown menu and the switching between states. I may have missed it, or forgotten about it since I was so late on this assignment, but I could not find a good resource for the dropdown specifically on Canvas or Milanote
+
+### Work Completed (Week 4)
+- [x] Project 1: Signal & State
+
+**SVGs**
+- [x] SVG Tutorial (Christmas themed)
+- [x] Custom SVG theme icons created
+- [x] Theme dropdown implemented
+- [x] SVG anatomy practice
+- [x] Week 4 Visual Notes (SVGs)
+​
 ## Week 4
 ​
 ### What I Learned
@@ -42,20 +68,20 @@ Not sure because I haven't dived into the meat and bones of Week 3 yet :P We'll 
 - [x] Color tokens defined
 - [x] Typography tokens defined
 - [x] Spacing tokens defined
-- [ ] Tokens used in CSS (no hardcoded values)
+- [x] Tokens used in CSS (no hardcoded values)
 
 **Theme System**
-- [ ] Uses data-theme on <html>
-- [ ] Toggle feedback is immediate
+- [x] Uses data-theme on <html>
+- [x] Toggle feedback is immediate
 
 **Persistence & Preference**
-- [ ] Theme saved to localStorage
-- [ ] Theme persists on refresh
-- [ ] System preference used on first visit
+- [x] Theme saved to localStorage
+- [x] Theme persists on refresh
+- [x] System preference used on first visit
 
 **Deployment**
-- [ ] Deployed to GitHub Pages
-- [ ] Repository is public
+- [x] Deployed to GitHub Pages
+- [x] Repository is public
 ​
 ## Week 3​
 ### What I Learned
@@ -83,11 +109,11 @@ Still a little lost on Figma variables, but I think that's mostly due to a lack 
 - [x] The Switch
 
 **Build**
-- [ ] The Foundation
+- [x] The Foundation
 - [x] Portfolio in Figma + Style Tile
 
 **Reflect**
-- [ ] Visual Notes: Week 2---
+- [x] Visual Notes: Week 2---
 
 ​
 ## Week 2​
@@ -119,7 +145,7 @@ More general work with JS and figuring out all the bits.
 
 **Build**
 - [x] Portfolio Migration
-- [ ] Portfolio in Figma + Style Tile
+- [x] Portfolio in Figma + Style Tile
 
 **Reflect**
 - [x] Visual Notes: Week 1---​
