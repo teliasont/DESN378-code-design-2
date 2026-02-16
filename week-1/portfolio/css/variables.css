@@ -110,7 +110,7 @@
 /* Spacing Tokens */
 :root {
   --size4:4px;
-  --size8:-8px;
+  --size8:8px;
   --size12:12px;
   --size16:16px;
   --size32:32px;

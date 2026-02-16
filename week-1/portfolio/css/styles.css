@@ -174,6 +174,8 @@
   .nav-menu {
     display: flex;
     list-style: none;
+        margin-right: 1rem;
+
   }
   .nav-menu li {
     margin-left: 0.75rem;
@@ -186,6 +188,118 @@
     display: none; /* Hidden on desktop */
     cursor: pointer;
   }
+
+  /*------THEME DROPDOWN-------*/
+  .star{
+  stroke: none;
+}
+.currentFill {
+  fill: var(--text__primary);
+}
+.currentStroke {
+  stroke: var(--text__primary);
+}
+.systemTheme{
+  transform: rotate(45deg);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown svg{
+  width: 24px;
+  height: 24px;
+}
+.dropbtn {
+  background-color: var(--surface__background);
+  color: var(--text__primary);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--surface__background);
+  min-width: 120px;
+  width:fit-content;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+  top: calc(100% + 5px);
+  right: -1rem;
+  overflow: hidden;
+  border-radius: 10px;
+  z-index: 100;
+}
+.dropdown-content a{
+    padding: var(--size16);
+
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: background-color 0.4s ease;
+}
+.dropdown-content a.active {
+  background-color: var(--surface__secondary);
+}
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+
+/*
+.theme-dropdown {
+  position: relative;      /* Anchor for absolute positioning 
+}
+
+.theme-trigger, .theme-menu button {
+  min-height: 24px;
+  background-color: var(--surface__background);
+  border: none;
+}
+.theme-trigger{
+  text-transform: uppercase;
+  min-width: 24px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: var(--size12);
+  cursor: pointer;
+}
+.theme-dropdown button:hover{
+   background-color: var(--surface__secondary);
+  transition: all 0.4s ease;
+}
+
+.theme-menu {
+  display: none;           /* Hidden by default 
+  position: absolute;      /* Positioned relative to .dropdown/
+  min-width: 160px;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.theme-menu button {
+  width: 120px;
+  border-radius: none;
+}
+.theme-dropdown svg, .theme-menu svg {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.theme-dropdown:hover .theme-menu {
+  display: block;          /* Shown on hover 
+}
+
+*/
+
   
   
   

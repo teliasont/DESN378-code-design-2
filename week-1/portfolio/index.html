@@ -42,7 +42,104 @@
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
       <li> <!--I'll make the button look prettier later. I just want to get this doneeeeeeeee-->
-        <button class="theme-toggle" >Toggle Theme</button>
+        <!--<button class="theme-toggle" >Toggle Theme</button>-->
+<div class="dropdown">
+          <button class="dropbtn">
+            <svg viewBox="-100 -100 200 200" class="star">
+              <g transform="translate(0 5)">
+                <g> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+              </g>
+            </svg>
+          </button>
+          
+          <div class="dropdown-content">
+            <a href="#" data-theme="system" class="active">
+              <svg viewBox="0 0 20 20" class="systemTheme">
+                <circle cx="10" cy="10" r="5" fill="none" class="currentStroke" stroke-width="1.5" />
+                <path d=" M 10,5  L 10,15  A 5,5 0 0 0 10,5"  stroke="none"  class="currentStroke currentFill"/>
+              </svg>    
+              <span>System</span>
+            </a>
+            <a href="#" data-theme="light" class="">
+              <svg viewBox="-100 -100 200 200" class="star">
+              <g transform="translate(0 5)">
+                <g> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+              </g>
+            </svg>
+              <span>Light</span>
+            </a>
+            <a href="#" data-theme="dark" class="">
+              <svg viewBox="0 0 375 300">
+                <circle class="currentStroke"  cx="200" cy="140" r="60" fill="none" stroke-width="25" />
+                <ellipse class="currentStroke currentFill"  cx="200"  cy="150"  rx="180"   ry="8"  stroke-width="5"/>
+                <path fill="none" class="currentStroke" stroke-width="15" d=" M 143,122  Q 115,150   60,150"/>
+                <path fill="none" class="currentStroke" stroke-width="15"  d=" M 257,122 Q 285,150  340,150"  />
+              </svg>
+              <span>Dark</span>
+            </a>
+          </div>
+        </div>
+
+
+
+  <!--
+        <div class="theme-dropdown">
+  
+          <button class="theme-trigger">
+              <svg viewBox="-100 -100 200 200" class="star">
+              <g transform="translate(0 5)">
+                <g> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                <g transform="rotate(-144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+              </g>
+            </svg>
+            <span>Theme</span>
+          </button>
+  
+          <div class="theme-menu">
+            <button data-theme="system">
+              <svg viewbox="0 0 20 20" class="systemTheme">
+                <circle cx="10" cy="10" r="5" fill="none" class="currentStroke" stroke-width="1.5" />
+                <path d=" M 10,5  L 10,15  A 5,5 0 0 0 10,5"  stroke="none"  class="currentStroke currentFill"/>
+              </svg>       
+              System
+            </button>
+  
+            <button data-theme="light"> 
+              <svg width="24" height="24" viewBox="-150 -150 250 250" class="star">
+                <g transform="translate(0 5)">
+                  <g> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                  <g transform="rotate(72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                  <g transform="rotate(-72)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                  <g transform="rotate(144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                  <g transform="rotate(-144)"> <polygon points="0,0 26,-25 0,-100 -26,-25 0,0" class="currentFill" /> </g>
+                </g>
+              </svg>
+              Light
+            </button>
+   
+            <button data-theme="dark">
+              <svg viewBox="0 0 375 300">
+                <circle class="currentStroke"  cx="200" cy="140" r="60" fill="none" stroke-width="25" />
+                <ellipse class="currentStroke currentFill"  cx="200"  cy="150"  rx="180"   ry="8"  stroke-width="5"/>
+                <path fill="none" class="currentStroke" stroke-width="15" d=" M 143,122  Q 115,150   60,150"/>
+                <path fill="none" class="currentStroke" stroke-width="15"  d=" M 257,122 Q 285,150  340,150"  />
+              </svg>
+              Dark
+            </button>
+          </div>
+        </div>
+      -->
       </li>
     <!--  <li>
         <button id="toggleMotion">Reduce Motion</button>
