@@ -21,6 +21,37 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ---
 
 # Learning Log
+## Week 6 & 7
+​
+### What I Learned
+I learned about the GreenSock Animation Platform (GSAP) and how I can use it as a way to animate SVGs. GSAP is much easier to handle than CSS transformations, as it shares more in common with traditional animation elements, and it is based in JavaScript. This week included a ~3 hour set of video lectures which was so fun and exciting, trust 🤞. I also did more reading of various scrollytelling websites to see what all the pros are up to, and got some good ideas.
+​
+​
+### What Was Hard
+Laying out what I wanted for my scrollytelling project. It's quite a "I'm not sure what I want until I get there" project, which makes it hard to start since I'm not sure where I am starting. If I stare at my screen long enough, some ideas will some to mind. Also, fiddling with GSAP and getting used to its syntax was a bit tricky.
+​
+​
+### How I Used AI
+For help in figuring out errors (mostly syntax) in GSAP and helping to realize the animation I had pictured in my head through prompting and explaination. I also used AI to help layout ideas and metaphors that form the base of my scrollytelling assignment. While I had the inital idea (exploring an alien world) already in mind, I used AI assistance to help find ways to express the JavaScript concepts in metaphors relating to different biomes and areas around the fictional planet.​
+​
+### What's Still Unclear
+GSAP is still kind of tricky, but it's quite cool. What is unclear is how much work I will get done this weekend, considering that I am presumably playing softball games for the majority of the daylight hours :\ 
+
+### Work Completed (Week 5)
+- [x] Switch Practice
+- [x] GSAP Learning
+- [x] GSAP SVGs
+- [x] Metaphor Alignment
+- [x] Scrollytelling Research
+- [x] The System - Scrollytelling outline
+- [x] Week 5 Visual Notes
+
+### Work Completed (Week 6)
+- [ ] The Blueprint - Scrollytelling layout
+- [ ] GSAP AI SVG Tutorial
+- [ ] Motion Map
+- [ ] Week 6 Visual Notes
+
 ## Week 5
 ​
 ### What I Learned
