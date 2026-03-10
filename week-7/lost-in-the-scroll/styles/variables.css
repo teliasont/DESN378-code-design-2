@@ -1,0 +1,42 @@
+/* VARIABLES */
+:root {
+  --brightpurple:#674ae8;
+  --lightpurple:#a894ff;
+  --darkpurple:#31236f;
+  --darkerpurple:#1d1151;
+  --darkestpurple: #1a1a2e;
+  --brightpink:#fc76b1;
+  --mediumpink:#f25c9e;
+  --lightpink:#ffbcd9;
+  --darkpink:#863056;
+  --brightorange:#ff8149;
+  --lightorange:#ffbd9f;
+  --darkorange:#73381d;
+  --brightgreen:#4ff3b1;
+  --lightgreen:#abf2d6;
+  --darkgreen:#196144;
+  --brightyellow:#ffca42;
+  --lightyellow:#ffe093;
+  --darkyellow:#7b601c;
+  
+
+  --background:var(--darker-purple);
+  --textbg:var(--bright-yellow);
+  --textcolor:var(--dark-purple);
+  --lenscolor:var(--dark-pink);
+
+  --fonts__headingfont:Alata;
+  --fonts__bodyfont:Barlow Semi Condensed;
+  --typesizes__bodysize:[object Object];
+  --typesizes__h1size:[object Object];
+  --typesizes__h2size:[object Object];
+  --typesizes__h3size:[object Object];
+  --typesizes__captionsize:[object Object];
+
+  --sizes:16;
+  --sizexs:8;
+  --sizem:24;
+  --sizel:32;
+  --sizexl:48;
+  --sizexxl:64;
+}

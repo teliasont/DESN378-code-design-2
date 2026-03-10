@@ -1,0 +1,149 @@
+@import "./variables.css";
+@import "./reset.css";
+
+
+
+/*STARTER CODE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+/*   font-family: system-ui, sans-serif; */
+  color: #f0f0f0;
+  background: var(--darkestpurple);
+  font-family: "Barlow Semi Condensed", system-ui, sans-serif;
+  font-size: 1rem;
+}
+
+
+.spacer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The scene container */
+.parallax-scene {
+  position: relative;
+  height: 600vh;
+  overflow: hidden;
+}
+
+/* All layers fill the scene */
+.layer {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star-layer {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#stars, #stars2, #stars3 {
+  overflow: visible;
+  position: absolute;
+}
+
+/* Background layer */
+.layer--bg {
+  z-index: 1;
+}
+#stars {
+  width: 1px; 
+  height: 1px;
+}
+
+
+/* Midground layer */
+.layer--mid {
+  z-index: 2;
+}
+#stars2 {
+  width: 2px; 
+  height: 2px;
+}
+
+/* Foreground layer */
+.layer--fg {
+  position: absolute;
+  z-index: 4;
+}
+#stars3 {
+  width: 3px; 
+  height: 3px;
+}
+.fg-text {
+  text-align: center;
+  text-shadow: 2px 2px var(--darkestpurple);
+  position: absolute;
+  top: 70vh;
+  color: var(--brightyellow);
+}
+.fg-heading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+#planet{
+  height: 150vh;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 3;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*INTRO UFO SECTION*/
+.column {
+  border: 2px solid red;
+  width: 70%;
+  max-width: 70%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 6;
+  position: absolute;
+  top: 200vh;
+  text-align: left;
+}
+.chapter{
+  width: 80%;
+}
+.text-box{
+  background: var(--brightyellow);
+  color: var(--darkpurple);
+  padding: 32px;
+  width: 100%;
+  margin: 32px auto;
+  
+}
+
+#ufo {
+  width: 70%;
+}
+
+#lens {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  width: 25%;
+  height: fit-content;
+}
+#lens image {
+  display: none;
+}
