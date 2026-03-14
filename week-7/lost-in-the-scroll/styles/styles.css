@@ -10,27 +10,39 @@
   box-sizing: border-box;
 }
 
+
 body {
 /*   font-family: system-ui, sans-serif; */
   color: #f0f0f0;
-  background: var(--darkestpurple);
+  background: #1a1a2e;
   font-family: "Barlow Semi Condensed", system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  height: fit-content;
 }
 
 
 .spacer {
+  position: relative;
+  bottom: 0;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -100;
+  
 }
 
 /* The scene container */
 .parallax-scene {
   position: relative;
-  height: 600vh;
-  overflow: hidden;
+  height: auto;
+  min-height: 600vh;
+  /* overflow: hidden; */
+}
+
+.star-container{
+  border: 5px solid hotpink;
+
 }
 
 /* All layers fill the scene */
@@ -41,16 +53,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .star-layer {
-  position: absolute; 
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+    pointer-events: none;
+  z-index: -1;
 }
 #stars, #stars2, #stars3 {
   overflow: visible;
   position: absolute;
+  top:0;
+  left:0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
 }
 
 /* Background layer */
@@ -62,6 +82,13 @@ body {
   height: 1px;
 }
 
+.bg-shape {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: #9ecfa7;
+  border: 2px solid #0f3460;
+}
 
 /* Midground layer */
 .layer--mid {
@@ -70,6 +97,13 @@ body {
 #stars2 {
   width: 2px; 
   height: 2px;
+}
+
+.mid-text {
+  font-size: 1.5rem;
+  color: #e94560;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 /* Foreground layer */
@@ -83,10 +117,10 @@ body {
 }
 .fg-text {
   text-align: center;
-  text-shadow: 2px 2px var(--darkestpurple);
+  text-shadow: 2px 2px #1a1a2e;
   position: absolute;
-  top: 70vh;
-  color: var(--brightyellow);
+  top: 50vh;
+  color: #FFCA42;
 }
 .fg-heading {
   font-size: 4rem;
@@ -111,29 +145,59 @@ body {
   border: 2px solid red;
   width: 70%;
   max-width: 70%;
-  height: 300vh;
+  height: 600vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 6;
+  z-index: 10;
   position: absolute;
   top: 200vh;
   text-align: left;
+  overflow: visible;
 }
 .chapter{
   width: 80%;
 }
+
 .text-box{
-  background: var(--brightyellow);
-  color: var(--darkpurple);
+  background: #FFCA42;
+  color: #31236F;
   padding: 32px;
   width: 100%;
   margin: 32px auto;
   
 }
+.variables{
+  border: 2px solid orange;
+}
+.conditionals {
+  border: 2px solid yellow;
+}
+.events{
+  border: 2px solid #0f0;
+}
+.toggle {
+  border: 2px solid #0ff;
+}
+.tokens {
+  border: 2px solid blue;
+}
 
 #ufo {
   width: 70%;
+  height: auto;
+  min-height: 200px; 
+  flex-shrink: 0; 
+  overflow: visible;
+  will-change: transform;
+}
+
+.fire1, .fire2 {
+  transform-origin: top center;
+  transform: translateY(-80px);
+}
+.fire2{
+  transform: translateX(-149px);
 }
 
 #lens {

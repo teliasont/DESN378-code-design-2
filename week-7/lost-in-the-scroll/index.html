@@ -15,39 +15,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <title>Lost in the Scroll</title>
 </head>
-
 <body>
-
-<!-- Starry parallax modified from this CodePen with the help of Gemini: https://codepen.io/sarazond/pen/LYGbwj -->
-<!--blah blah blah  -->
-
-<!-- Spacer: gives room to scroll before the scene -->
-<section class="spacer">
-  <h1>Scroll Down</h1>
-</section> <!-- May move spacers inside of star container-->
-
 <section class="star-container">
 <!-- The parallax scene -->
+ <div id="stars" class="star-layer"></div>
+   <div id="stars2" class="star-layer"></div>
+   <div id="stars3" class="star-layer"></div>
+
 <section class="parallax-scene">
-  <div class="layer layer--bg">
-      <div id="stars" class="star-layer"></div>
-    <!--<div class="bg-shape"></div>-->
-  </div>
-  <div class="layer layer--mid">
-          <div id="stars2" class="star-layer"></div>
-<!--    <p class="mid-text">midground element</p>-->
-  </div>
-  <div class="layer layer--fg">
-          <div id="stars3" class="star-layer">
-          </div>
-  </div>
   <div class="layer layer--fg">
     <div class="fg-text">
     <h2 class="fg-heading">Don't Panic!</h2>
-    <h3>A Beginner's Journey Through Learning Java Script</h3>
+    <h3>A Beginning Journey Through Learning Java Script</h3>
     </div>
   </div>
-  
   
   <svg  viewBox="0 0 849 890" fill="none" id="lens">
     <defs>
@@ -73,12 +54,11 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.4199 515.5C67.4201 679.018 199.97 811.575 363.479 811.575C526.988 811.575 659.539 679.018 659.539 515.5C659.539 351.982 526.989 219.424 363.479 219.424C199.97 219.424 67.4199 351.982 67.4199 515.5ZM89.625 515.492C89.625 364.242 212.237 241.63 363.487 241.63C514.737 241.63 637.35 364.242 637.35 515.492C637.35 666.742 514.737 789.354 363.487 789.354C212.237 789.354 89.6251 666.742 89.625 515.492Z" fill="#1D1151"/><!-- inner lens circle -->
 <path d="M38.8628 231.97C38.8628 254.672 57.2654 273.075 79.9653 273.075C102.665 273.075 121.067 254.672 121.067 231.97C121.067 209.269 102.665 190.866 79.9653 190.866C57.2654 190.866 38.8629 209.269 38.8628 231.97Z" fill="#4FF3B1" stroke="#1D1151" stroke-width="8"/> <!-- little lens bit -->
 </svg>
-
   
-<section class="column">
+<div class="column">
  <svg viewBox="0 0 568 339" id="ufo" >
-<path class="hidden" d="M407.186 292.568L396 229.605V224.568H483V238.42L468.086 285.013V262.346L453.171 296.346L445.714 285.013L435.771 326.568L419.614 272.42L407.186 292.568Z" fill="#4FF3B1" stroke="#ABF2D6" stroke-width="6"/> <!-- fire 2 -->
-<path d="M258.071 280.683L239 220.976V216H328V229.683L317.829 268.244L312.743 253.317L297.486 318L289.857 275.707L280.957 300.585L272.057 260.78L258.071 280.683Z" fill="#4FF3B1" stroke="#ABF2D6" stroke-width="6"/> <!-- fire 1 -->
+<path class="fire2" d="M407.186 292.568L396 229.605V224.568H483V238.42L468.086 285.013V262.346L453.171 296.346L445.714 285.013L435.771 326.568L419.614 272.42L407.186 292.568Z" fill="#4FF3B1" stroke="#ABF2D6" stroke-width="6"/> <!-- fire 2 -->
+<path class="fire-1" d="M258.071 280.683L239 220.976V216H328V229.683L317.829 268.244L312.743 253.317L297.486 318L289.857 275.707L280.957 300.585L272.057 260.78L258.071 280.683Z" fill="#4FF3B1" stroke="#ABF2D6" stroke-width="6"/> <!-- fire 1 -->
 <path d="M204.629 235.85L169.993 191.977C246.961 156.878 347.019 177.352 387.427 191.977L358.564 235.85H204.629Z" fill="#674AE8" stroke="#1D1151" stroke-width="6"/> <!-- UFO bottom -->
 <path d="M283.651 81.8101C361.82 81.8101 432.494 89.2093 483.542 101.126C509.09 107.091 529.556 114.149 543.562 121.879C550.567 125.745 555.817 129.705 559.284 133.661C562.735 137.597 564.304 141.386 564.304 145.029C564.304 148.671 562.735 152.46 559.284 156.396C555.817 160.352 550.567 164.311 543.562 168.177C529.556 175.908 509.09 182.966 483.542 188.93C432.494 200.847 361.82 208.247 283.651 208.247C205.483 208.247 134.81 200.847 83.7617 188.93C58.2138 182.966 37.7469 175.908 23.7402 168.177C16.7359 164.311 11.4861 160.352 8.01855 156.396C4.56826 152.46 3.00012 148.671 3 145.029C3 141.386 4.56808 137.597 8.01855 133.661C11.4861 129.705 16.7359 125.745 23.7402 121.879C37.7469 114.149 58.2138 107.091 83.7617 101.126C134.81 89.2093 205.483 81.8101 283.651 81.8101Z" fill="#674AE8" stroke="#1D1151" stroke-width="6"/> <!-- UFO body -->
 <path d="M283.56 3C319.167 3 355.384 18.4623 382.722 40.4492C409.82 62.2441 427.554 89.9051 427.989 114.482C424.981 118.595 419.495 122.198 411.428 125.218C402.956 128.388 392.027 130.775 379.104 132.534C353.266 136.052 319.975 137 283.56 137C247.141 137 216.291 136.051 192.166 132.538C168.611 129.108 152.143 123.313 143.013 114.206C143.546 89.6389 160.364 62.0974 186.379 40.416C212.733 18.452 247.965 3.00013 283.56 3Z" fill="#4FF3B1" stroke="#1D1151" stroke-width="6"/> <!-- Dome -->
@@ -116,22 +96,98 @@
     <p>It seems your ship has stalled. Did someone spill tea on your navigation panel? It happens to me all the time.</p>
     </div>
     <div class="text-box">
-    <p>Well, why that's being repaired, let me tell you all about the wondrous land of Ja-Vah Skrippt, located just shy of 0.0000000426 light years away! </p>
+    <p>Well, why that's being repaired, let me tell you all about the wondrous land of Ja-Vah Skrippt, located just 0.0000000426 light years to your right! </p>
     </div>    
   </div>
-  
+  <div class="test"></div>
   <div class="variables chapter">
     <!--Lens will come into view here-->
      <div class="text-box">
-       <p>First up, and conviently within easy viewing is the <strong>Root Reflectory!</strong></p>
+       <p>First up, and conviently within easy viewing is the <strong>Root Reflectory! </strong>Here, we grow many of our planets. Our brilliant, if perhaps slightly insane biologists are devised a way to perfectly copy any plant!</p><br>
+       <p>Placing any plant into the primary DataPot will copy the plant's attributes and other biological features immediately! Even something like picking a leaf from the main plant will cause a ripple effect down the entire row until every planet is missing that same leaf.</p>
+    </div>
+    <div class="text-box">
+    <p>The cloning technology is quite incredible and makes food-gathering a breeze. Though I do wonder if anyone has tried to plant someone else in a DataPot. That's besides the point, anyways.</p>
+    </div>
+    <div class="text-box">
+    <p>Just to the north a smidge is <strong>The Forest</strong>. It is where a lot of samples are gathered for the Root Reflectory.</p>
+    </div>
+  </div><!-- End Variables chapter -->
+  
+   <div class="conditionals chapter">
+     <div class="text-box">
+    <p>Say, do you have forests on Earth? Do they look anything like this?</p>
+    </div>
+     <div class="text-box">
+    <p>Ah, yours are a different color, but surely they function the same? Just wait for the clouds to stroll through and you'll get to see the wonder. And what great timing for the clouds, too!</p>
+    </div>
+     <div class="text-box">
+    <p>Taking your expression into account, I presume this is unusual? This rather typical across Ja-Vah Skrippt. If The Forest is below a certain light level, then all the plants that thrive in low-light conditions seize the opportunity to take over The Forest.</p>
+    </div>
+      <div class="text-box">
+    <p>...</p>
+    </div>
+      <div class="text-box">
+    <p>This really isn't usual on your planet? How odd.</p>
+        <p>I suppose we shall continue on our way.<p>
+    </div>
+  </div> <!-- End Conditionals chapter -->
+  
+  
+  <div class="events chapter">
+     <div class="text-box">
+    <p>Not too far away, if you'll just move your viewing scope, is the Triggering Hollows. Not a place I would personally recommend visiting. The place is a maze of a cave system, sprawling all over that area. It is dead quiet unless some idiot tourist stumbles into the area and begins to poke, prod, shout, or look dramatically at the caves. Any of those actions set off the residents, who burst into a raging tizzy and will scream and shout back until they've gotten it out of their system.</p>
+    </div>
+     <div class="text-box">
+    <p>And if that sounds bad, then dread the thought of <em>sneezing</em> in front of them. The Milliways still haven't recovered.</p>
+    </div>
+     <div class="text-box">
+    <p>Do you have any way of poking the hollows from your ship? Setting the residents off from space is quite amusing, and much safer.</p>
+    </div>
+    <div class="text-box">
+    <p>Look at those little rascals go! I pity any tourist who wanted to get a look now. Amazing, though, isn't it, to be able to affect the planet while not even standing astride it?</p>
+    </div>
+    <div class="text-box">
+    <p>Let's jump to a different area of Ja-Vah Skrippt, where the sun is just about to set. What perfect timing! You are an unusually lucky individual, I'll have you know.</p>
     </div>
   </div>
-  
-  
-   <div class="text-box">
-    <p></p>
+  <div class="toggle chapter">
+    <div class="text-box">
+      <p>Welcome to the <strong>Mirage Flats</strong>! Similar to The Forest, the flats toggle between different states. The day is hot and causes the land to turn to fine grains that slosh about. It's quite odd to walk on, like almost a liquid, but not quite. But at night! Oh, but at night it is something else! At night, the temperature drops to, quite frankly, dangerous levels and freezes the entire ground <em>solid</em>.</p>
     </div>
-</section>
+    <div class="text-box">
+    <p>And when the land is solid, it is as reflective as any mirror you or I have ever seen! It's like having two night skys at once! How magnificent. It really helps out <strong>the Observatory</strong> with their work. They're just a few hops away from here.</p>
+    </div>    
+  </div><!-- End toggle chapter-->
+    
+  <div class="tokens chapter">
+    <div class="text-box">
+    <p>Welcome to the Observatory! Though their building may look a tad beat-down on the outside, I promise you the inside is marvelous!This is the single most important building in the land of Ja-Vah Skrippt, and it is one of the greatest honors to serve as an esteemed Astronomer. The Astronomers observe the night sky (or the Mirage Flats) with its many different stars, planets, and stray flying objects to determine the appearence of the planet.</p>
+    </div>
+    <div class="text-box">
+    <p>Currently, they have decreed that the stars proclaim everything should only be shown in shades of purple, pink, yellow, orange, and green, in case you were wondering why you had only seen five colors on this tour. The Astronomers have wonderful technology that lets them interface with the whole planet to present a coherent look! Though those pesky fashion industrialists are always trying to break in to get information on the future aesthetic changes.</p>
+    </div> 
+    <div class="text-box">
+    <p>The Astronomers have gotten very good at diverting the fashion spies away from the Observatory. Often, a shiny object thrown in the wrong direction will do the trick.</p>
+    </div>
+    <div class="text-box">
+    <p>Look there! An Astronomer is updating something as we speak!</p>
+    </div>
+    <div class="text-box">
+    <p>I suppose my ship lights are pink and green now, instead of orange and green. I was hoping for a more drastic shift in appearence, personally. One can dream for the stars to align next time. </p>
+    </div>
+  </div><!-- end tokens chapter-->
+  
+  <div class="closing chapter">
+    <div class="text-box">
+    <p>I think I saw something beep behind you. It appears your navigator has been fixed! No need to make any excuses about staying. We've seen everything with even a modicum of interest. Though I do hope you get lost in this arm of the galaxy again. It would be lovely to give you a ground tour.</p>
+    </div>
+    <div class="text-box">
+    <p>Do be sure to teach the other Earthlings about Ja-Vah Skrippt! Perhaps they will choose to follow in your footsteps and spill some tea on their navigator so they can experience Ja-Vah Skrippt for themselves! So long!</p>
+    </div>
+  </div> <!--end closing chapter -->
+
+</div><!--end column -->
 
   
 </section>
@@ -146,16 +202,16 @@
 <path d="M882.773 30.0356C1065.99 86.3899 1216.3 217.85 1297.78 388.484C1296.77 403.411 1294.98 417.542 1292 430.059C1285.88 455.756 1291.51 482.63 1277 490C1262 490 1222.15 483.936 1225 464C1229.95 429.314 1193.56 419.014 1200 430.059C1204.63 438 1207.53 443.636 1200 452C1187.33 451.333 1153.2 423.6 1142 414C1128 402 1086 388 1074 400C1062 412.001 1038 456.001 1026 464C1016.4 470.401 982 484.001 966 490C939.333 489.334 930.375 454.565 885.999 388C873.999 370.001 798 394 797.999 370C797.999 346.001 766 312 797.999 282C829.999 252 871.999 268.001 797.999 208C723.999 148.001 817.999 176 829.999 140C838.499 114.5 871.999 136.5 893.999 145.5C909.382 151.794 917.499 154 925.499 148C925.499 126.001 925.499 132 917.999 118C913.999 96.0005 937.999 112 937.999 86.0005C937.999 60.0005 909.999 66.0005 885.999 60.0005C867.838 55.4602 877.161 46.3376 882.773 30.0356Z" fill="#4FF3B1"/>
 </svg>
 
+<!-- <section class="spacer">
+  <p>Keep scrolling...</p>
+</section> -->
 
 </section> <!--end star-container-->
 
-<!-- Spacer: gives room to scroll after the scene -->
 
-
-<section class="spacer">
-  <p>Keep scrolling...</p>
-</section>
-
+<!-- <footer class="spacer">
+  <p>Wow, what a cool placeholder.</p>
+</footer> -->
 
 
 </body>
