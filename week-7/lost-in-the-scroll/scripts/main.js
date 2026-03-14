@@ -1,57 +1,23 @@
 gsap.registerPlugin(ScrollTrigger)
 
 //Generate a long string of randomly placed stars
-function generateStars(count) {
+function generateStars(count, width, height) {
   let shadows ="";
   for (let i = 0; i< count; i++){
-    const x =Math.floor(Math.random()*2000);
-    const y = Math.floor(Math.random()*2000);
+    const x =Math.floor(Math.random()*width);
+    const y = Math.floor(Math.random()*height);
     shadows += `${x}px ${y}px #FFF${i === count - 1 ? "" : ","}`;
   }
   return shadows;
 }
+const pageHeight = document.documentElement.scrollHeight;
+const pageWidth = window.innerWidth;
 
 //Apply the shadows (stars) to the divs
-document.getElementById('stars').style.boxShadow = generateStars(700);
-document.getElementById('stars2').style.boxShadow = generateStars(200);
-document.getElementById('stars3').style.boxShadow = generateStars(100);
+document.getElementById('stars').style.boxShadow = generateStars(900, pageWidth, pageHeight);
+document.getElementById('stars2').style.boxShadow = generateStars(400, pageWidth, pageHeight);
+document.getElementById('stars3').style.boxShadow = generateStars(200, pageWidth, pageHeight);
 
-
-// //The smallest/furthest layer of stars.
-// gsap.to("#stars", {
-//   y: -200,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".parallax-scene", 
-//     start: "top bottom",
-//     end: "bottom top",
-//     scrub: true,
-//   }
-// });
-
-// //The middle layer of stars.
-// gsap.to("#stars2", {
-//   y: -500,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".parallax-scene",
-//     start: "top bottom",
-//     end: "bottom top",
-//     scrub: true,
-//   }
-// });
-
-// //The biggest/closest layer of stars.
-// gsap.to("#stars3", {
-//   y: -800,
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: ".parallax-scene",
-//     start: "top bottom",
-//     end: "bottom top",
-//     scrub: true,
-//   }
-// });
 
 
 //Planet zooming in effect.
@@ -145,18 +111,38 @@ function flyInUFO() {
     }, "-=0.5"); // Hover with slight overlap with prev animation
 }
 
-function starParallax() {
+
   const starTL = gsap.timeline({
     scrollTrigger: {
       trigger: ".fg-text",
       start: "center center",
-      end: "bottom bottom",
+      end: "225vh",
       scrub: 0.8,
-      markers: true
     }
   });
   starTL.to("#stars", { y: -150, ease:"none"}, 0)
       .to("#stars2", { y:-300, ease:"none"}, "<")
       .to("stars3", {y:-450, ease: "none"}, "<");
-}
-starParallax();
+
+  ScrollTrigger.create({
+    trigger: ".star-container",
+    start: "250vh top",
+    end: "bottom bottom",
+    pin: ["#stars", "#stars2", "#stars3"],
+    pinSpacing: false
+  });
+      
+// function starParallaxLeave() {
+//   const starTL = gsap.timeline({
+//     scrollTrigger: {
+//       trigger: ".fg-text",
+//       start: "center center",
+//       end: "225vh",
+//       scrub: 0.8,
+//       markers: true
+//     }
+//   });
+//   starTL.to("#stars", { y: -150, ease:"none"}, 0)
+//       .to("#stars2", { y:-300, ease:"none"}, "<")
+//       .to("stars3", {y:-450, ease: "none"}, "<");
+// }

@@ -1,0 +1,35 @@
+// //The smallest/furthest layer of stars.
+// gsap.to("#stars", {
+//   y: -200,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".parallax-scene", 
+//     start: "top bottom",
+//     end: "bottom top",
+//     scrub: true,
+//   }
+// });
+
+// //The middle layer of stars.
+// gsap.to("#stars2", {
+//   y: -500,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".parallax-scene",
+//     start: "top bottom",
+//     end: "bottom top",
+//     scrub: true,
+//   }
+// });
+
+// //The biggest/closest layer of stars.
+// gsap.to("#stars3", {
+//   y: -800,
+//   ease: "none",
+//   scrollTrigger: {
+//     trigger: ".parallax-scene",
+//     start: "top bottom",
+//     end: "bottom top",
+//     scrub: true,
+//   }
+// });

@@ -20,7 +20,6 @@ body {
   height: fit-content;
 }
 
-
 .spacer {
   position: relative;
   bottom: 0;
@@ -29,7 +28,7 @@ body {
   align-items: center;
   justify-content: center;
   z-index: -100;
-  
+
 }
 
 /* The scene container */
@@ -40,10 +39,6 @@ body {
   /* overflow: hidden; */
 }
 
-.star-container{
-  border: 5px solid hotpink;
-
-}
 
 /* All layers fill the scene */
 .layer {
@@ -65,12 +60,7 @@ body {
 }
 #stars, #stars2, #stars3 {
   overflow: visible;
-  position: absolute;
-  top:0;
-  left:0;
-  width: 1px;
-  height: 1px;
-  background: transparent;
+  position: fixed;
 }
 
 /* Background layer */
@@ -81,29 +71,12 @@ body {
   width: 1px; 
   height: 1px;
 }
-
-.bg-shape {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  background: #9ecfa7;
-  border: 2px solid #0f3460;
-}
-
-/* Midground layer */
 .layer--mid {
   z-index: 2;
 }
 #stars2 {
   width: 2px; 
   height: 2px;
-}
-
-.mid-text {
-  font-size: 1.5rem;
-  color: #e94560;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
 }
 
 /* Foreground layer */
@@ -142,7 +115,6 @@ body {
 
 /*INTRO UFO SECTION*/
 .column {
-  border: 2px solid red;
   width: 70%;
   max-width: 70%;
   height: 600vh;
